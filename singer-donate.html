@@ -113,11 +113,12 @@
                         data-target="#singerSponsorModal">
                     sponsor
                 </button>
-                <div class="modal fade donation-modal" id="singerSponsorModal" tabindex="-1" role="dialog"
+                <div class="modal fade donation-modal" id="teamSponsorModal" tabindex="-1" role="dialog"
                      aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
+
                                 <h3 class="section-title-secondary modal-title" id="exampleModalLabel">Choose the
                                     amount</h3>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -223,15 +224,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card-details">
+                                    <div class="card-details mb-4">
                                         <h3 class="section-title-secondary">
                                             Card details
                                         </h3>
                                         <div class="row">
                                             <div class="col-12">
                                                 <div class="form-group">
-                                                    <label for="cardNumber"><p class="section-info">Card Number</p>
-                                                    </label>
+                                                    <label for="cardNumber">Card Number</label>
                                                     <input class="form-control" type="text" name="card number"
                                                            id="cardNumber">
                                                 </div>
@@ -240,10 +240,8 @@
                                                 <div class="row">
                                                     <div class="col-12 col-sm-4">
                                                         <div class="form-group">
-                                                            <label for="expirationMonth"><p class="section-info">
-                                                                Expiration Month</p></label>
-                                                            <select name="expiration month" id="expirationMonth"
-                                                                    class="form-control">
+                                                            <label for="expirationMonth">Expiration Month</label>
+                                                            <select name="expiration month" id="expirationMonth" class="form-control">
                                                                 <option value="01">01</option>
                                                                 <option value="02">02</option>
                                                                 <option value="03">03</option>
@@ -261,10 +259,8 @@
                                                     </div>
                                                     <div class="col-12 col-sm-4">
                                                         <div class="form-group">
-                                                            <label for="expirationYear"><p class="section-info">
-                                                                Expiration Year</p></label>
-                                                            <select name="expiration year" id="expirationYear"
-                                                                    class="form-control">
+                                                            <label for="expirationYear">Expiration Year</label>
+                                                            <select name="expiration year" id="expirationYear" class="form-control">
                                                                 <option value="2020">2020</option>
                                                                 <option value="2021">2021</option>
                                                                 <option value="2022">2022</option>
@@ -281,25 +277,23 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-sm-4">
-
                                                         <div class="form-group">
-                                                            <label for="cvv"><p class="section-info">CVV</p></label>
+                                                            <label for="cvv">CVV</label>
                                                             <input class="form-control" type="text" name="cvv"
                                                                    id="cvv">
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-12">
-                                                <label for="comment"><p class="section-info">Comment</p></label>
+                                                <label for="comment">Comment</label>
                                                 <textarea class="form-control" name="comment" id="comment"
                                                           style="resize: none"></textarea>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-button text-center">
-                                        <button class="contact-us-button orange-button" type="submit">
+                                        <button class="contact-us-button blue-button" type="submit">
                                             process
                                         </button>
                                     </div>
