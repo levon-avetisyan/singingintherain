@@ -1,0 +1,116 @@
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+section {
+  padding: 70px 0;
+}
+
+h2.section-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #181818;
+  font-size: 70px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+h3.section-title-secondary {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+
+p.section-info {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #888888;
+  font-weight: 300;
+  line-height: 1.67;
+  letter-spacing: 0px;
+}
+
+h5.section-info-secondary {
+  color: #181818;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+button.orange-button {
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 17px 34px;
+  text-align: center;
+  border: 0;
+  background-color: #ffc72b;
+  color: #FFFFFF;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    transition: 0.4s ease;
+    background-color: #4baef8;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+
+button.blue-button {
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 17px 34px;
+  text-align: center;
+  border: 0;
+  background-color: #4baef8;
+  color: #FFFFFF;
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    transition: 0.4s ease;
+    background-color: #ffc72b;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+
+button.transparent-button {
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 17px 34px;
+  text-align: center;
+  border: 2px solid #ffc72b;
+  background-color: transparent;
+  color: #ffc72b;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    transition: 0.4s ease;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    border-color: #000000;
+  }
+}
+
