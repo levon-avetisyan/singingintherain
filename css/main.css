@@ -627,10 +627,6 @@ section.profile .progress-bar {
     background-color: #ffc72b;
 }
 
-section.profile p.section-info {
-    margin-bottom: 30px;
-}
-
 section.profile .profile-line {
     background-color: #ebebeb;
     height: 1px;
