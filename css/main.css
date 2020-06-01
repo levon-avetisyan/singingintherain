@@ -108,6 +108,11 @@ button.transparent-button {
     color: #ffc72b;
 }
 
+button.transparent-button.xs {
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
 button.transparent-button:focus {
     outline: none;
 }
@@ -945,12 +950,15 @@ section.about-team .modal .modal-body form button {
     margin-top: 30px;
 }
 
-/*Modal*/  .modal.donation-modal .modal-dialog {
+/*Modal*/
+.modal.donation-modal .modal-dialog {
     min-width: 35%;
 }
+
 .modal.donation-modal .modal-header h3.section-title-secondary {
     margin-bottom: 0;
 }
+
 .modal.donation-modal .modal-body .amounts button {
     padding: 15px 30px;
     height: 30px;
@@ -968,16 +976,19 @@ section.about-team .modal .modal-body form button {
     border: 2px solid #ffc72b;
     border-radius: 3px;
 }
+
 .modal.donation-modal .modal-body .amounts button p.section-info {
     margin-bottom: 0;
     color: #FFFFFF;
 }
+
 .modal.donation-modal .modal-body .amounts button:hover {
     background-color: #000000;
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
     border-color: #000000;
 }
+
 .modal.donation-modal .modal-body .donation-amount {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -990,48 +1001,60 @@ section.about-team .modal .modal-body form button {
     justify-content: center;
     margin-bottom: 30px;
 }
+
 .modal.donation-modal .modal-body .donation-amount p.section-info {
     margin-bottom: 0;
     margin-right: 15px;
 }
+
 .modal.donation-modal .modal-body .donation-amount input {
     width: 100px;
 }
+
 .modal.donation-modal .modal-body form h3.section-title-secondary {
     margin-bottom: 30px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details, section.about-team .modal .modal-body form .card-details {
     background-color: #f4f4f4;
     border-radius: 30px;
     padding: 30px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details p.section-info, section.about-team .modal .modal-body form .card-details p.section-info {
     margin-bottom: 0;
     font-size: 13px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details input, section.about-team .modal .modal-body form .card-details input {
     height: 35px;
     border-radius: 3px;
     border: 1px solid #bebebe;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details select, section.about-team .modal .modal-body form .card-details select {
     width: 100%;
     height: 35px;
     border-radius: 3px;
     border: 1px solid #bebebe;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details select::-webkit-input-placeholder, section.about-team .modal .modal-body form .card-details select::-webkit-input-placeholder {
     font-size: 13px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details select::-moz-placeholder, section.about-team .modal .modal-body form .card-details select::-moz-placeholder {
     font-size: 13px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details select::-ms-input-placeholder, section.about-team .modal .modal-body form .card-details select::-ms-input-placeholder {
     font-size: 13px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details select::placeholder, section.about-team .modal .modal-body form .card-details select::placeholder {
     font-size: 13px;
 }
+
 .modal.donation-modal .modal-body form .cardholder-details + .card-details {
     margin-top: 30px;
 }
