@@ -877,6 +877,13 @@ section.about-team .profile-line {
     margin-bottom: 30px;
 }
 
+.donation-form-wrap form .cardholder-details,
+.modal.donation-modal .modal-body form .cardholder-details {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 30px;
+}
+
 .donation-form-wrap form .card-details,
 .modal.donation-modal .modal-body form .card-details {
     background-color: #f4f4f4;
