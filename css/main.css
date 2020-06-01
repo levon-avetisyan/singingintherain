@@ -931,6 +931,11 @@ section.about-team .profile-line {
 }
 
 @media (max-width: 575px) {
+    .modal.donation-modal .modal-body .amounts button,
+    .donation-form-wrap .amounts button{
+        width: 100%;
+        margin: 6px;
+    }
     nav.navbar a.navbar-brand h1 {
         font-size: 30px;
         margin-bottom: 0;
