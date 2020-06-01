@@ -815,12 +815,18 @@ section.about-team .profile-line {
 }
 
 /*Donate Page*/
+.donation-form-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .donation-form-wrap h3.section-title-secondary {
     margin-bottom: 0;
 }
 
 .donation-form-wrap .amounts button {
-    padding: 15px 30px;
+    padding: 20px 30px;
+    font-size: 24px;
     height: 30px;
     background-color: #ffc72b;
     display: -webkit-box;
@@ -871,7 +877,8 @@ section.about-team .profile-line {
     margin-bottom: 30px;
 }
 
-.donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .card-details {
+.donation-form-wrap form .card-details,
+.modal.donation-modal .modal-body form .card-details {
     background-color: #f4f4f4;
     border-radius: 30px;
     padding: 30px;
@@ -888,7 +895,8 @@ section.about-team .profile-line {
     border: 1px solid #bebebe;
 }
 
-.donation-form-wrap form .cardholder-details select, .modal.donation-modal .modal-body form .card-details select {
+.donation-form-wrap form .cardholder-details select,
+.modal.donation-modal .modal-body form .card-details select {
     width: 100%;
     height: 35px;
     border-radius: 3px;

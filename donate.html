@@ -85,7 +85,7 @@
             consectetur deserunt dolor dolorum ea minima odio provident recusandae?</p>
         <div class="donation-form-wrap">
             <form action="">
-                <div class="amounts">
+                <div class="amounts mb-3">
                     <div class="row">
                         <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
                             <button>
@@ -113,7 +113,7 @@
                     <p class="section-info">
                         Donation Amount
                     </p>
-                    <input type="text">
+                    <input type="text" class="form-control">
                 </div>
                 <div class="cardholder-details">
                     <h3 class="section-title-secondary">
@@ -122,22 +122,20 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="nameOnCard"><p class="section-info">Name on card</p>
-                                </label>
+                                <label for="nameOnCard">Name on card</label>
                                 <input class="form-control" type="text" name="card name"
                                        id="nameOnCard">
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="email"><p class="section-info">Email</p></label>
+                                <label for="email">Email</label>
                                 <input class="form-control" type="text" name="email" id="email">
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="streetAddress"><p class="section-info">Street
-                                    Address</p></label>
+                                <label for="streetAddress">Street Address</label>
                                 <input class="form-control" type="text" name="street address"
                                        id="streetAddress">
                             </div>
@@ -146,34 +144,27 @@
                             <div class="row">
                                 <div class="col-12 col-sm-5">
                                     <div class="form-group">
-                                        <label for="city"><p class="section-info">City</p></label>
+                                        <label for="city">City</label>
                                         <input class="form-control" type="text" name="city"
                                                id="city">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-3">
                                     <div class="form-group">
-                                        <label for="state"><p class="section-info">State</p></label>
+                                        <label for="state">State</label>
                                         <select name="state" id="state">
-                                            <option value="other"><p class="section-info">Please
-                                                select</p></option>
-                                            <option value="other"><p class="section-info">other</p>
-                                            </option>
-                                            <option value="alabama"><p class="section-info">
-                                                Alabama</p></option>
-                                            <option value="alaska"><p class="section-info">
-                                                Alaska</p></option>
-                                            <option value="california"><p class="section-info">
-                                                California</p></option>
-                                            <option value="delaware"><p class="section-info">
-                                                Delaware</p></option>
+                                            <option value="other">Please select</option>
+                                            <option value="other">other</option>
+                                            <option value="alabama">Alabama</option>
+                                            <option value="alaska">Alaska</option>
+                                            <option value="california">California</option>
+                                            <option value="delaware">Delaware</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-4">
                                     <div class="form-group">
-                                        <label for="zipCode"><p class="section-info">Zip Code</p>
-                                        </label>
+                                        <label for="zipCode">Zip Code</label>
                                         <input class="form-control" type="text" name="zip code"
                                                id="zipCode">
                                     </div>
@@ -182,15 +173,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-details">
+                <div class="card-details mb-3">
                     <h3 class="section-title-secondary">
                         Card details
                     </h3>
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="cardNumber"><p class="section-info">Card Number</p>
-                                </label>
+                                <label for="cardNumber">Card Number</label>
                                 <input class="form-control" type="text" name="card number"
                                        id="cardNumber">
                             </div>
@@ -199,9 +189,8 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <div class="form-group">
-                                        <label for="expirationMonth"><p class="section-info">
-                                            Expiration Month</p></label>
-                                        <select name="expiration month" id="expirationMonth">
+                                        <label for="expirationMonth">Expiration Month</label>
+                                        <select name="expiration month" id="expirationMonth" class="form-control">
                                             <option value="01">01</option>
                                             <option value="02">02</option>
                                             <option value="03">03</option>
@@ -219,9 +208,8 @@
                                 </div>
                                 <div class="col-12 col-sm-4">
                                     <div class="form-group">
-                                        <label for="expirationYear"><p class="section-info">
-                                            Expiration Year</p></label>
-                                        <select name="expiration year" id="expirationYear">
+                                        <label for="expirationYear">Expiration Year</label>
+                                        <select name="expiration year" id="expirationYear" class="form-control">
                                             <option value="2020">2020</option>
                                             <option value="2021">2021</option>
                                             <option value="2022">2022</option>
@@ -238,20 +226,16 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-4">
-
                                     <div class="form-group">
-                                        <label for="cvv"><p class="section-info">CVV</p></label>
-                                        <input class="form-control" type="text" name="cvv"
-                                               id="cvv">
+                                        <label for="cvv">CVV</label>
+                                        <input class="form-control" type="text" name="cvv" id="cvv">
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
-                            <label for="comment"><p class="section-info">Comment</p></label>
-                            <textarea class="form-control" name="comment" id="comment"
-                                      style="resize: none"></textarea>
+                            <label for="comment">Comment</label>
+                            <textarea class="form-control" name="comment" id="comment" style="resize: none"></textarea>
                         </div>
                     </div>
                 </div>
