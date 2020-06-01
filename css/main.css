@@ -461,13 +461,13 @@ section.our-teams .team-wrap:hover {
 }
 
 section.our-teams .team-wrap .team-img {
-    margin-bottom: 20px;
-}
-
-section.our-teams .team-wrap .team-img img {
-    height: 130px;
     width: 130px;
+    height: 130px;
     border-radius: 50%;
+    background-image: url('./img/team-img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto 20px;
 }
 
 section.our-teams .team-wrap h5.section-info-secondary {
@@ -932,10 +932,11 @@ section.about-team .profile-line {
 
 @media (max-width: 575px) {
     .modal.donation-modal .modal-body .amounts button,
-    .donation-form-wrap .amounts button{
+    .donation-form-wrap .amounts button {
         width: 100%;
         margin: 6px;
     }
+
     nav.navbar a.navbar-brand h1 {
         font-size: 30px;
         margin-bottom: 0;
@@ -945,11 +946,12 @@ section.about-team .profile-line {
         font-size: 45px;
     }
 
-    section.hero .hero-wrap h1{
+    section.hero .hero-wrap h1 {
         font-size: 28px;
         text-align: center;
     }
-    section.hero .hero-wrap h3{
+
+    section.hero .hero-wrap h3 {
         font-size: 22px;
         text-align: center;
     }
