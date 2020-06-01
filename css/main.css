@@ -420,13 +420,13 @@ section.our-raisers .raiser-wrap:hover {
 }
 
 section.our-raisers .raiser-wrap .raiser-img {
-    margin-bottom: 20px;
-}
-
-section.our-raisers .raiser-wrap .raiser-img img {
-    height: 130px;
     width: 130px;
+    height: 130px;
     border-radius: 50%;
+    background-image: url('https://levon-avetisyan.github.io/singingintherain/img/raiser-img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto 20px;
 }
 
 section.our-raisers .raiser-wrap h5.section-info-secondary {
@@ -464,7 +464,7 @@ section.our-teams .team-wrap .team-img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background-image: url('./img/team-img-1.jpg');
+    background-image: url('https://levon-avetisyan.github.io/singingintherain/img/team-img-1.jpg');
     background-position: center;
     background-size: cover;
     margin: 0 auto 20px;
