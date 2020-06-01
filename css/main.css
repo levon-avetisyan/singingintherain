@@ -475,6 +475,7 @@ section.profile .modal .modal-body .amounts {
       justify-content: space-around;
   margin-bottom: 20px; }
   section.profile .modal .modal-body .amounts button {
+    margin: 0;
     padding: 15px 30px;
     height: 30px;
     background-color: #4baef8;
@@ -490,14 +491,13 @@ section.profile .modal .modal-body .amounts {
     cursor: pointer;
     border: 2px solid #4baef8;
     border-radius: 3px; }
-    section.profile .modal .modal-body .amounts button p.section-info {
-      margin-bottom: 0;
-      color: #FFFFFF; }
     section.profile .modal .modal-body .amounts button:hover {
       background-color: #000000;
       -webkit-transition: 0.4s ease;
       transition: 0.4s ease;
-      border-color: #000000; }
+      border-color: #000000;
+      color:white;
+    }
 
 section.profile .modal .modal-body .donation-amount {
   display: -webkit-box;
