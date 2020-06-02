@@ -9,7 +9,7 @@ section {
 
 h2.section-title {
     font-family: 'Montserrat', sans-serif;
-    color: #181818;
+    color: #231e55;
     font-size: 70px;
     font-weight: 200;
     margin-bottom: 50px;
@@ -39,6 +39,7 @@ h5.section-info-secondary {
     font-size: 18px;
 }
 
+/*dark blue button*/
 button.orange-button {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -50,7 +51,7 @@ button.orange-button {
     padding: 17px 34px;
     text-align: center;
     border: 0;
-    background-color: #ffc72b;
+    background-color: #231e55;
     color: #FFFFFF;
 }
 
@@ -58,14 +59,16 @@ button.orange-button:focus {
     outline: none;
 }
 
+/*purple 2*/
 button.orange-button:hover {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
-    background-color: #4baef8;
+    background-color: #5e2783;
     color: #FFFFFF;
     text-decoration: none;
 }
 
+/*purple 2*/
 button.blue-button {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -77,7 +80,7 @@ button.blue-button {
     padding: 17px 34px;
     text-align: center;
     border: 0;
-    background-color: #4baef8;
+    background-color: #5e2783;
     color: #FFFFFF;
 }
 
@@ -85,10 +88,11 @@ button.blue-button:focus {
     outline: none;
 }
 
+/*red 2*/
 button.blue-button:hover {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
-    background-color: #ffc72b;
+    background-color: #231e55;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -103,9 +107,9 @@ button.transparent-button {
     font-size: 15px;
     padding: 17px 34px;
     text-align: center;
-    border: 2px solid #ffc72b;
+    border: 2px solid #231e55;
     background-color: transparent;
-    color: #ffc72b;
+    color: #231e55;
 }
 
 button.transparent-button.xs {
@@ -153,7 +157,7 @@ nav {
 }
 
 nav.navbar {
-    height: 80px;
+    height: 140px;
     left: 0;
     right: 0;
     background-color: #FFFFFF;
@@ -182,7 +186,7 @@ nav.navbar .navbar-toggler .toggle .bar {
     position: relative;
     width: 22px;
     height: 2px;
-    background: #ffc72b;
+    background: #231e55;
 }
 
 nav.navbar .navbar-toggler .toggle .bar:before, nav.navbar .navbar-toggler .toggle .bar:after {
@@ -216,23 +220,27 @@ nav.navbar .navbar-toggler .toggle.clicked .bar:before, nav.navbar .navbar-toggl
     background: #000;
 }
 
+ul.navbar-nav {
+    padding: 20px 0;
+}
+
 nav.navbar .navbar-toggler .toggle.clicked .bar:before {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     top: 0;
-    background: #ffc72b;
+    background: #231e55;
 }
 
 nav.navbar .navbar-toggler .toggle.clicked .bar:after {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     bottom: 0;
-    background: #ffc72b;
+    background: #231e55;
 }
 
 nav.navbar.sticky {
     position: fixed;
-    height: 70px;
+    height: 130px;
     top: 0;
     left: 0;
     right: 0;
@@ -265,7 +273,7 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar a.navbar-brand img {
-    height: 30px;
+    height: 100px;
 }
 
 nav.navbar .navbar-collapse {
@@ -298,7 +306,7 @@ nav.navbar .navbar-collapse ul li a.nav-link.active {
 }
 
 nav.navbar .navbar-collapse ul li a.nav-link:hover {
-    color: #ffc72b;
+    color: #981d58;
 }
 
 nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
@@ -306,7 +314,7 @@ nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
 }
 
 nav.navbar .navbar-collapse.collapsing ul li, nav.navbar .navbar-collapse.show ul li {
-    padding: 7px 0;
+    padding: 2px 0;
     margin: 0;
     text-align: center;
 }
@@ -385,8 +393,8 @@ section.hero .hero-wrap .hero-buttons button + button {
 section.counts {
     text-align: center;
     padding: 20px 0;
-    background-image: -webkit-gradient(linear, left top, right top, from(#ffc72b), to(#ffde2c));
-    background-image: linear-gradient(90deg, #ffc72b, #ffde2c);
+    background-image: -webkit-gradient(linear, left top, right top, from(#981d58), to(#5e2783));
+    background-image: linear-gradient(90deg, #981d58, #5e2783);
 }
 
 section.counts h2.section-title {
@@ -402,14 +410,33 @@ section.counts h5.section-info-secondary {
 
 section.our-raisers {
     text-align: center;
-    background: #fafafa;
+    background: #FFFFFF;
+}
+
+section.our-raisers h2.section-title {
+    margin-bottom: 30px;
+}
+
+section.our-raisers .input-group {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-group-append .btn:hover {
+    border-color: #231e55;
+    transition: 0.4s ease;
+    background: #231e55;
+}
+
+section.our-raisers .input-group {
+    margin-bottom: 50px;
 }
 
 section.our-raisers .raiser-wrap {
     background-color: #fafafa;
     padding: 30px 20px;
     border-radius: 3px;
-    border-bottom: 4px solid #ffc72b;
+    border-bottom: 4px solid #5e2783;
 }
 
 section.our-raisers .raiser-wrap:hover {
@@ -450,7 +477,7 @@ section.our-teams .team-wrap {
     background-color: #FFFFFF;
     padding: 30px 20px;
     border-radius: 3px;
-    border-bottom: 4px solid #4baef8;
+    border-bottom: 4px solid #231e55;
 }
 
 section.our-teams .team-wrap:hover {
@@ -486,43 +513,13 @@ section.register h2.section-title {
     font-size: 50px;
 }
 
-section.register .register-wrap {
-    border: 2px solid #ffc72b;
-    padding: 40px 20px;
-    min-height: 400px;
-}
-
-section.register .register-wrap:hover {
-    border-color: #4baef8;
-    -webkit-transition: 0.4s ease;
-    transition: 0.4s ease;
-}
-
-section.register .register-wrap h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ffc72b;
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-section.register .register-wrap p.section-info span {
-    color: #00009f;
-    letter-spacing: 1px;
-}
-
-section.register .register-wrap p.section-info a:hover {
-    color: #ffc72b;
-    -webkit-transition: 0.4s ease;
-    transition: 0.4s ease;
-}
-
 section.contact-form {
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 section.contact-form .get-in-touch {
-    border: 1px solid #f4f4f4;
-    background-color: #FFFFFF;
+    border: 1px solid #cecece;
+    background-color: #fafafa;
     text-align: center;
     padding: 50px 20px;
     margin-bottom: 20px;
@@ -549,6 +546,7 @@ section.contact-form h5.section-info-secondary {
     max-width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
+    margin-top: 30px;
     text-transform: unset;
 }
 
@@ -562,12 +560,14 @@ section.contact-form address ul {
 
 section.contact-form address i {
     font-size: 30px;
-    color: #ffc72b;
+    color: #5e2783;
     margin-bottom: 20px;
 }
 
 section.contact-form address p.section-info {
     margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 section.contact-form address p.section-info a {
@@ -577,11 +577,21 @@ section.contact-form address p.section-info a {
 section.contact-form address p.section-info a:hover {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
-    color: #4baef8;
+    color: #5e2783;
 }
 
 section.about-page-body {
     padding: 70px 0;
+}
+
+section.about-page-body .about-img {
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+section.about-page-body img {
+    width: 100%;
 }
 
 section.profile h2.section-title {
@@ -624,7 +634,7 @@ section.profile .progress {
 }
 
 section.profile .progress-bar {
-    background-color: #ffc72b;
+    background-color: #231e55;
 }
 
 section.profile .profile-line {
@@ -667,6 +677,7 @@ section.donations table tr:nth-child(even) {
 
 section.team-members {
     text-align: center;
+    background-color: #fafafa;
 }
 
 section.team-members .team-member-profile .team-member-profile-img {
@@ -682,10 +693,15 @@ section.team-members .team-member-profile .team-member-profile-img img {
 
 section.team-members .team-member-profile p.section-info {
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
 }
 
 section.about-team {
-    background-color: #fafafa;
+    padding-top: 30px;
+    background-color: #ffffff;
 }
 
 section.about-team h5.section-info-secondary {
@@ -699,7 +715,7 @@ section.about-team .progress {
 }
 
 section.about-team .progress-bar {
-    background-color: #4baef8;
+    background-color: #5e2783;
 }
 
 section.about-team p.section-info {
@@ -713,9 +729,36 @@ section.about-team .profile-line {
     margin-bottom: 20px;
 }
 
+section.register-page-body h2.section-title {
+    text-align: center;
+}
+
+section.register-page-body form {
+    border: 1px solid #f4f4f4;
+    padding: 50px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+section.register-page-body .form-group label {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+section.register-page-body .form-group input {
+    height: 40px;
+}
+
+section.register-page-body .form-group textarea {
+    height: 120px;
+}
+
 /*Modal*/
 .modal.donation-modal .modal-dialog {
-    min-width: 35%;
+    min-width: 40%;
 }
 
 .modal.donation-modal .modal-header h3.section-title-secondary {
@@ -726,7 +769,7 @@ section.about-team .profile-line {
     margin: 0;
     padding: 15px 30px;
     height: 30px;
-    background-color: #ffc72b;
+    background-color: #5e2783;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -737,8 +780,9 @@ section.about-team .profile-line {
     -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
-    border: 2px solid #ffc72b;
+    border: 2px solid #5e2783;
     border-radius: 3px;
+    color: #FFFFFF;
 }
 
 .modal.donation-modal .modal-body .amounts button:hover {
@@ -760,6 +804,14 @@ section.about-team .profile-line {
     -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.modal.donation-modal .modal-body .donation-amount p.section-info {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
 }
 
 .modal.donation-modal .modal-body .donation-amount input {
@@ -828,7 +880,7 @@ section.about-team .profile-line {
     padding: 20px 30px;
     font-size: 24px;
     height: 30px;
-    background-color: #ffc72b;
+    background-color: #231e55;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -839,7 +891,9 @@ section.about-team .profile-line {
     -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
-    border: 2px solid #ffc72b;
+    border: 2px solid #231e55;
+    color: #FFFFFF;
+    min-width: 100%;
     border-radius: 3px;
 }
 
@@ -867,6 +921,11 @@ section.about-team .profile-line {
 .donation-form-wrap .donation-amount p.section-info {
     margin-bottom: 0;
     margin-right: 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
 }
 
 .donation-form-wrap .donation-amount input {
@@ -930,7 +989,37 @@ section.about-team .profile-line {
     margin-top: 30px;
 }
 
+section.donate-page-body .donation-form-wrap form .form-group {
+    width: 100%;
+}
+
+.donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .cardholder-details {
+    text-align: left;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details + .card-details {
+    text-align: left;
+}
+
+section.team-members .form-group {
+    width: 100%;
+}
+
 @media (max-width: 575px) {
+    section.donate-page-body {
+        padding-top: 30px;
+    }
+
+    .donation-form-wrap form .card-details, .modal.donation-modal .modal-body form .card-details {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .cardholder-details {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
     .modal.donation-modal .modal-body .amounts button,
     .donation-form-wrap .amounts button {
         width: 100%;
@@ -961,16 +1050,21 @@ section.about-team .profile-line {
         margin-top: 20px;
     }
 
+    section.hero {
+        padding-top: 140px;
+    }
+
     section.counts .count-wrap {
         margin: 10px 0;
     }
 
-    section.register h2.section-title {
-        font-size: 30px;
+    section.hero .hero-wrap {
+        justify-content: space-between;
     }
 
     section.contact-form .get-in-touch h2.section-title {
         margin-bottom: 15px;
+        font-size: 40px;
     }
 
     section.contact-form .get-in-touch {
@@ -1008,34 +1102,45 @@ section.about-team .profile-line {
         font-size: 18px;
     }
 
-    .modal.donation-amount .modal-body form .cardholder-details, .modal .modal-body form .card-details {
+    section.profile .form-group {
+        width: 100%;
+    }
+
+    .modal .modal-body form .cardholder-details,
+    .modal .modal-body form .card-details {
         padding: 30px 10px;
     }
 
-    .modal.donation-amount .modal-body form .cardholder-details, .modal.donation-modal .modal-body form .card-details {
+    .modal.donation-modal .modal-body form .cardholder-details,
+    .modal.donation-modal .modal-body form .card-details {
         padding: 30px 10px;
     }
 
     section.team-members {
         padding-top: 30px;
+
     }
 
     section.about-team h3.section-title-secondary {
         font-size: 18px;
     }
+
+    section.register-page-body form {
+        padding: 30px 15px;
+    }
 }
 
 @media (min-width: 576px) {
+    section.donate-page-body {
+        padding-top: 30px;
+    }
+
     section.counts h2.section-title {
         font-size: 35px;
     }
 
     h2.section-title {
         font-size: 55px;
-    }
-
-    section.register h2.section-title {
-        font-size: 40px;
     }
 
     section.register .register-wrap {
@@ -1070,16 +1175,17 @@ section.about-team .profile-line {
         margin: 0 auto;
         margin-bottom: 20px;
     }
+
+    .modal .modal-body form .cardholder-details,
+    .modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+
 }
 
 @media (min-width: 768px) {
-    section.register h2.section-title {
-        font-size: 30px;
-    }
 
-    section.register .register-wrap {
-        max-width: 50%;
-    }
 
     section.our-raisers {
         padding: 30px 0;
@@ -1109,14 +1215,6 @@ section.about-team .profile-line {
 @media (min-width: 992px) {
     nav.navbar.sticky .navbar-collapse ul li a.nav-link {
         font-size: 14px;
-    }
-
-    section.register .register-wrap {
-        max-width: 100%;
-    }
-
-    section.register .register-wrap {
-        min-height: 430px;
     }
 
     section.contact-form .get-in-touch {

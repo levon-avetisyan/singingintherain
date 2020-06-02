@@ -32,8 +32,7 @@
 <nav class="navbar navbar-expand-lg" id="siteNav">
     <div class="container-fluid">
         <a class="navbar-brand pl-3" href="https://levon-avetisyan.github.io/singingintherain">
-            <!--            <img src="./img/brand-logo.png">-->
-            <h4 class="mb-0">SingInTheRain</h4>
+            <img src="./img/brand-logo.svg">
         </a>
         <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
              aria-controls="navbarNav"
@@ -57,7 +56,7 @@
                                         href="https://levon-avetisyan.github.io/singingintherain/teams.html">Teams</a>
                 </li>
                 <li class="nav-item"><a class="nav-link"
-                                        href="https://levon-avetisyan.github.io/singingintherain/#register">Register</a>
+                                        href="https://levon-avetisyan.github.io/singingintherain/register">Register</a>
                 </li>
                 <li class="nav-item"><a class="nav-link"
                                         href="https://levon-avetisyan.github.io/singingintherain/#homeContact">Contact</a>
@@ -79,7 +78,8 @@
         <h2 class="section-title text-center">
             General Donation Form
         </h2>
-        <p class="section-info mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur beatae,
+        <p class="section-info mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur
+            beatae,
             consequatur dolore doloribus dolorum eius esse ex facilis fuga id illum ipsum magnam minima modi molestiae
             mollitia necessitatibus nisi nobis, non omnis optio quia, reprehenderit rerum vel! Ab aperiam commodi
             consectetur deserunt dolor dolorum ea minima odio provident recusandae?</p>
@@ -187,8 +187,8 @@
                         </div>
                         <div class="col-12">
                             <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <div class="form-group">
+                                <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
+                                    <div class="form-group d-flex flex-column justify-content-end">
                                         <label for="expirationMonth">Expiration Month</label>
                                         <select name="expiration month" id="expirationMonth" class="form-control">
                                             <option value="01">01</option>
@@ -206,8 +206,8 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="form-group">
+                                <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
+                                    <div class="form-group d-flex flex-column justify-content-end">
                                         <label for="expirationYear">Expiration Year</label>
                                         <select name="expiration year" id="expirationYear" class="form-control">
                                             <option value="2020">2020</option>
@@ -225,8 +225,8 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="form-group">
+                                <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
+                                    <div class="form-group d-flex flex-column justify-content-end">
                                         <label for="cvv">CVV</label>
                                         <input class="form-control" type="text" name="cvv" id="cvv">
                                     </div>
@@ -234,8 +234,11 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <label for="comment">Comment</label>
-                            <textarea class="form-control" name="comment" id="comment" style="resize: none"></textarea>
+                            <div class="form-group">
+                                <label for="comment">Comment</label>
+                                <textarea class="form-control" name="comment" id="comment"
+                                          style="resize: none"></textarea>
+                            </div>
                         </div>
                     </div>
                 </div>
