@@ -157,7 +157,7 @@ nav {
 }
 
 nav.navbar {
-    height: 140px;
+    height: 90px;
     left: 0;
     right: 0;
     background-color: #FFFFFF;
@@ -221,7 +221,7 @@ nav.navbar .navbar-toggler .toggle.clicked .bar:before, nav.navbar .navbar-toggl
 }
 
 ul.navbar-nav {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 nav.navbar .navbar-toggler .toggle.clicked .bar:before {
@@ -240,7 +240,7 @@ nav.navbar .navbar-toggler .toggle.clicked .bar:after {
 
 nav.navbar.sticky {
     position: fixed;
-    height: 130px;
+    height: 80px;
     top: 0;
     left: 0;
     right: 0;
@@ -273,7 +273,7 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar a.navbar-brand img {
-    height: 100px;
+    height: 50px;
 }
 
 nav.navbar .navbar-collapse {
@@ -358,6 +358,9 @@ nav.navbar .navbar-collapse.collapsing ul li a.nav-link.page-link, nav.navbar .n
 
 section.hero {
     height: 100vh;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 130px;
 }
 
 section.hero .hero-wrap {
@@ -390,20 +393,21 @@ section.hero .hero-wrap .hero-buttons button + button {
     margin-left: 20px;
 }
 
-section.counts {
+section.hero .counts {
+    width: 100%;
     text-align: center;
     padding: 20px 0;
     background-image: -webkit-gradient(linear, left top, right top, from(#981d58), to(#5e2783));
     background-image: linear-gradient(90deg, #981d58, #5e2783);
 }
 
-section.counts h2.section-title {
+section.hero .counts h2.section-title {
     font-size: 45px;
     margin-bottom: 10px;
     color: #FFFFFF;
 }
 
-section.counts h5.section-info-secondary {
+section.hero .counts h5.section-info-secondary {
     color: #FFFFFF;
     font-weight: 600;
 }
@@ -767,8 +771,7 @@ section.register-page-body .form-group textarea {
 
 .modal.donation-modal .modal-body .amounts button {
     margin: 0;
-    padding: 15px 30px;
-    height: 30px;
+    padding: 10px 30px;
     background-color: #5e2783;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -877,9 +880,8 @@ section.register-page-body .form-group textarea {
 }
 
 .donation-form-wrap .amounts button {
-    padding: 20px 30px;
-    font-size: 24px;
-    height: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
     background-color: #231e55;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1035,6 +1037,11 @@ section.team-members .form-group {
         font-size: 45px;
     }
 
+    section.hero .hero-wrap {
+        height: calc(100vh - 140px);
+        padding: 70px 0;
+    }
+
     section.hero .hero-wrap h1 {
         font-size: 28px;
         text-align: center;
@@ -1049,13 +1056,21 @@ section.team-members .form-group {
         margin-left: 0px;
         margin-top: 20px;
     }
-
+    section.our-raisers .input-group{
+        width: 90%;
+    }
     section.hero {
+        height: unset;
         padding-top: 140px;
+        padding-bottom: 0;
     }
 
-    section.counts .count-wrap {
+    section.hero .counts .count-wrap {
         margin: 10px 0;
+    }
+
+    section.hero .counts h2.section-title {
+        font-size: 35px;
     }
 
     section.hero .hero-wrap {
@@ -1135,12 +1150,17 @@ section.team-members .form-group {
         padding-top: 30px;
     }
 
-    section.counts h2.section-title {
+    section.hero .counts h2.section-title {
         font-size: 35px;
     }
 
     h2.section-title {
         font-size: 55px;
+    }
+
+   section.hero .counts {
+        height: 130px;
+        position: absolute;
     }
 
     section.register .register-wrap {
