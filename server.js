@@ -4,7 +4,7 @@
 // ================================================================
 var express = require('express');
 var routes = require('./index.js');
-var port = process.env.PORT || 3200;
+var port = process.env.PORT || 3000;
 var app = express();
 // ================================================================
 // setup our express application

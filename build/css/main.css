@@ -1,124 +1,152 @@
 a:hover {
-  text-decoration: none; }
+    text-decoration: none;
+}
 
 section {
-  padding: 70px 0; }
+    padding: 70px 0;
+}
 
 h2.section-title {
-  font-family: 'Montserrat', sans-serif;
-  color: #181818;
-  font-size: 70px;
-  font-weight: 200;
-  margin-bottom: 50px; }
+    font-family: 'Montserrat', sans-serif;
+    color: #181818;
+    font-size: 70px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
 
 h3.section-title-secondary {
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #333333; }
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
 
 p.section-info {
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-  color: #888888;
-  font-weight: 300;
-  line-height: 1.67;
-  letter-spacing: 0px; }
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+    font-weight: 300;
+    line-height: 1.67;
+    letter-spacing: 0px;
+}
 
 h5.section-info-secondary {
-  color: #181818;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px; }
+    color: #181818;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
 
 button.orange-button {
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-  text-transform: uppercase;
-  border-radius: 30px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-size: 15px;
-  padding: 17px 34px;
-  text-align: center;
-  border: 0;
-  background-color: #ffc72b;
-  color: #FFFFFF; }
-  button.orange-button:focus {
-    outline: none; }
-  button.orange-button:hover {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 17px 34px;
+    text-align: center;
+    border: 0;
+    background-color: #ffc72b;
+    color: #FFFFFF;
+}
+
+button.orange-button:focus {
+    outline: none;
+}
+
+button.orange-button:hover {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
     background-color: #4baef8;
     color: #FFFFFF;
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 button.blue-button {
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-  text-transform: uppercase;
-  border-radius: 30px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-size: 15px;
-  padding: 17px 34px;
-  text-align: center;
-  border: 0;
-  background-color: #4baef8;
-  color: #FFFFFF; }
-  button.blue-button:focus {
-    outline: none; }
-  button.blue-button:hover {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 17px 34px;
+    text-align: center;
+    border: 0;
+    background-color: #4baef8;
+    color: #FFFFFF;
+}
+
+button.blue-button:focus {
+    outline: none;
+}
+
+button.blue-button:hover {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
     background-color: #ffc72b;
     color: #FFFFFF;
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 button.transparent-button {
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-  text-transform: uppercase;
-  border-radius: 30px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-size: 15px;
-  padding: 17px 34px;
-  text-align: center;
-  border: 2px solid #ffc72b;
-  background-color: transparent;
-  color: #ffc72b; }
-  button.transparent-button:focus {
-    outline: none; }
-  button.transparent-button:hover {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 17px 34px;
+    text-align: center;
+    border: 2px solid #ffc72b;
+    background-color: transparent;
+    color: #ffc72b;
+}
+
+button.transparent-button:focus {
+    outline: none;
+}
+
+button.transparent-button:hover {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
     color: #FFFFFF;
     background-color: #000000;
     text-decoration: none;
-    border-color: #000000; }
+    border-color: #000000;
+}
 
 html {
-  height: 100%; }
+    height: 100%;
+}
 
 body {
-  position: relative;
-  min-height: 100%;
-  opacity: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear; }
-  body.animated {
-    opacity: 1; }
+    position: relative;
+    min-height: 100%;
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+body.animated {
+    opacity: 1;
+}
 
 main {
-  position: relative; }
+    position: relative;
+}
 
 nav {
-  z-index: 1001; }
-  nav.navbar {
+    z-index: 1001;
+}
+
+nav.navbar {
     height: 80px;
     left: 0;
     right: 0;
@@ -126,355 +154,505 @@ nav {
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     padding-left: 0;
-    padding-right: 0; }
-    nav.navbar .navbar-toggler .toggle {
-      width: 30px;
-      height: 30px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      z-index: 10; }
-      nav.navbar .navbar-toggler .toggle .bar {
-        position: relative;
-        width: 22px;
-        height: 2px;
-        background: #ffc72b; }
-        nav.navbar .navbar-toggler .toggle .bar:before, nav.navbar .navbar-toggler .toggle .bar:after {
-          content: '';
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          background: inherit;
-          left: 0;
-          -webkit-transform-origin: center center;
-                  transform-origin: center center;
-          -webkit-transition: top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
-          transition: top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
-          transition: transform .25s ease, top .25s ease, bottom .25s ease;
-          transition: transform .25s ease, top .25s ease, bottom .25s ease, -webkit-transform .25s ease; }
-        nav.navbar .navbar-toggler .toggle .bar:before {
-          top: -8px; }
-        nav.navbar .navbar-toggler .toggle .bar:after {
-          bottom: -8px; }
-      nav.navbar .navbar-toggler .toggle.clicked .bar {
-        background: transparent; }
-        nav.navbar .navbar-toggler .toggle.clicked .bar:before, nav.navbar .navbar-toggler .toggle.clicked .bar:after {
-          background: #000; }
-        nav.navbar .navbar-toggler .toggle.clicked .bar:before {
-          -webkit-transform: rotate(45deg);
-                  transform: rotate(45deg);
-          top: 0;
-          background: #ffc72b; }
-        nav.navbar .navbar-toggler .toggle.clicked .bar:after {
-          -webkit-transform: rotate(-45deg);
-                  transform: rotate(-45deg);
-          bottom: 0;
-          background: #ffc72b; }
-    nav.navbar.sticky {
-      position: fixed;
-      height: 70px;
-      top: 0;
-      left: 0;
-      right: 0;
-      background-color: #FFFFFF;
-      -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-              box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-      z-index: 1001; }
-      nav.navbar.sticky a.navbar-brand {
-        height: 30px; }
-      nav.navbar.sticky .navbar-collapse ul li a.nav-link {
-        font-size: 13px; }
-    nav.navbar a.navbar-brand {
-      margin: 0;
-      padding: 0;
-      -webkit-transition: all 1s ease;
-      transition: all 1s ease;
-      cursor: pointer;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      nav.navbar a.navbar-brand img {
-        height: 30px; }
-    nav.navbar .navbar-collapse {
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end; }
-      nav.navbar .navbar-collapse ul li + li {
-        margin-left: 15px; }
-      nav.navbar .navbar-collapse ul li.active a.nav-link {
-        color: #000000; }
-      nav.navbar .navbar-collapse ul li a.nav-link {
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: 300;
-        color: #000000;
-        font-family: 'Roboto', sans-serif;
-        -webkit-transition: all 0.3s linear;
-        transition: all 0.3s linear;
-        letter-spacing: 2px; }
-        nav.navbar .navbar-collapse ul li a.nav-link.active {
-          color: #C0B283; }
-        nav.navbar .navbar-collapse ul li a.nav-link:hover {
-          color: #ffc72b; }
-      nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
-        background-color: white; }
-        nav.navbar .navbar-collapse.collapsing ul li, nav.navbar .navbar-collapse.show ul li {
-          padding: 7px 0;
-          margin: 0;
-          text-align: center; }
-          nav.navbar .navbar-collapse.collapsing ul li a.nav-link, nav.navbar .navbar-collapse.show ul li a.nav-link {
-            color: #000;
-            text-transform: uppercase;
-            font-size: 14px; }
-            nav.navbar .navbar-collapse.collapsing ul li a.nav-link.page-link, nav.navbar .navbar-collapse.show ul li a.nav-link.page-link {
-              max-width: 120px;
-              margin: 0 auto; }
+    padding-right: 0;
+}
+
+nav.navbar .navbar-toggler .toggle {
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 10;
+}
+
+nav.navbar .navbar-toggler .toggle .bar {
+    position: relative;
+    width: 22px;
+    height: 2px;
+    background: #ffc72b;
+}
+
+nav.navbar .navbar-toggler .toggle .bar:before, nav.navbar .navbar-toggler .toggle .bar:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    left: 0;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transition: top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
+    transition: top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
+    transition: transform .25s ease, top .25s ease, bottom .25s ease;
+    transition: transform .25s ease, top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
+}
+
+nav.navbar .navbar-toggler .toggle .bar:before {
+    top: -8px;
+}
+
+nav.navbar .navbar-toggler .toggle .bar:after {
+    bottom: -8px;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar {
+    background: transparent;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar:before, nav.navbar .navbar-toggler .toggle.clicked .bar:after {
+    background: #000;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0;
+    background: #ffc72b;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    bottom: 0;
+    background: #ffc72b;
+}
+
+nav.navbar.sticky {
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    z-index: 1001;
+}
+
+nav.navbar.sticky a.navbar-brand {
+    height: 30px;
+}
+
+nav.navbar.sticky .navbar-collapse ul li a.nav-link {
+    font-size: 13px;
+}
+
+nav.navbar a.navbar-brand {
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav.navbar a.navbar-brand img {
+    height: 30px;
+}
+
+nav.navbar .navbar-collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+nav.navbar .navbar-collapse ul li + li {
+    margin-left: 15px;
+}
+
+nav.navbar .navbar-collapse ul li.active a.nav-link {
+    color: #000000;
+}
+
+nav.navbar .navbar-collapse ul li a.nav-link {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    letter-spacing: 2px;
+}
+
+nav.navbar .navbar-collapse ul li a.nav-link.active {
+    color: #C0B283;
+}
+
+nav.navbar .navbar-collapse ul li a.nav-link:hover {
+    color: #ffc72b;
+}
+
+nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
+    background-color: white;
+}
+
+nav.navbar .navbar-collapse.collapsing ul li, nav.navbar .navbar-collapse.show ul li {
+    padding: 7px 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav.navbar .navbar-collapse.collapsing ul li a.nav-link, nav.navbar .navbar-collapse.show ul li a.nav-link {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav.navbar .navbar-collapse.collapsing ul li a.nav-link.page-link, nav.navbar .navbar-collapse.show ul li a.nav-link.page-link {
+    max-width: 120px;
+    margin: 0 auto;
+}
 
 .hero-nav nav {
-  position: absolute;
-  background-color: transparent; }
+    position: absolute;
+    background-color: transparent;
+}
 
 .box {
-  width: 300px;
-  height: 200px;
-  background: #dedede;
-  -webkit-transition-property: -webkit-box-shadow,-webkit-transform;
-  transition-property: -webkit-box-shadow,-webkit-transform;
-  transition-property: box-shadow,transform;
-  transition-property: box-shadow,transform,-webkit-box-shadow,-webkit-transform;
-  -webkit-transition-duration: 600ms;
-          transition-duration: 600ms;
-  -webkit-transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
-          transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
-  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); }
-  .box:hover {
+    width: 300px;
+    height: 200px;
+    background: #dedede;
+    -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
+    transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.box:hover {
     -webkit-box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
-            box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
+}
 
 section.hero {
-  height: 100vh; }
-  section.hero .hero-wrap {
+    height: 100vh;
+}
+
+section.hero .hero-wrap {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    section.hero .hero-wrap h1 + h1 {
-      margin-top: 15px;
-      margin-bottom: 20px; }
-    section.hero .hero-wrap .hero-buttons {
-      margin-top: 30px; }
-      section.hero .hero-wrap .hero-buttons button + button {
-        margin-left: 20px; }
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section.hero .hero-wrap h1 + h1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+section.hero .hero-wrap .hero-buttons {
+    margin-top: 30px;
+}
+
+section.hero .hero-wrap .hero-buttons button + button {
+    margin-left: 20px;
+}
 
 section.counts {
-  text-align: center;
-  padding: 20px 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffc72b), to(#ffde2c));
-  background-image: linear-gradient(90deg, #ffc72b, #ffde2c); }
-  section.counts h2.section-title {
+    text-align: center;
+    padding: 20px 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffc72b), to(#ffde2c));
+    background-image: linear-gradient(90deg, #ffc72b, #ffde2c);
+}
+
+section.counts h2.section-title {
     font-size: 45px;
     margin-bottom: 10px;
-    color: #FFFFFF; }
-  section.counts h5.section-info-secondary {
     color: #FFFFFF;
-    font-weight: 600; }
+}
+
+section.counts h5.section-info-secondary {
+    color: #FFFFFF;
+    font-weight: 600;
+}
 
 section.our-raisers {
-  text-align: center; }
-  section.our-raisers .raiser-wrap {
+    text-align: center;
+}
+
+section.our-raisers .raiser-wrap {
     background-color: #fafafa;
     padding: 30px 20px;
     border-radius: 3px;
-    border-bottom: 4px solid #ffc72b; }
-    section.our-raisers .raiser-wrap:hover {
-      -webkit-transition: 0.4s ease;
-      transition: 0.4s ease;
-      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-              box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
-    section.our-raisers .raiser-wrap .raiser-img {
-      margin-bottom: 20px; }
-      section.our-raisers .raiser-wrap .raiser-img img {
-        height: 130px;
-        width: 130px;
-        border-radius: 50%; }
-    section.our-raisers .raiser-wrap h5.section-info-secondary {
-      font-size: 13px; }
-    section.our-raisers .raiser-wrap button {
-      margin-top: 20px; }
-  section.our-raisers button.orange-button {
-    margin-top: 50px; }
+    border-bottom: 4px solid #ffc72b;
+}
+
+section.our-raisers .raiser-wrap:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+section.our-raisers .raiser-wrap .raiser-img {
+    margin-bottom: 20px;
+}
+
+section.our-raisers .raiser-wrap .raiser-img img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+section.our-raisers .raiser-wrap h5.section-info-secondary {
+    font-size: 13px;
+}
+
+section.our-raisers .raiser-wrap button {
+    margin-top: 20px;
+}
+
+section.our-raisers button.orange-button {
+    margin-top: 50px;
+}
 
 section.our-teams {
-  text-align: center;
-  background-color: #fafafa; }
-  section.our-teams .team-wrap {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+section.our-teams .team-wrap {
     background-color: #FFFFFF;
     padding: 30px 20px;
     border-radius: 3px;
-    border-bottom: 4px solid #4baef8; }
-    section.our-teams .team-wrap:hover {
-      -webkit-transition: 0.4s ease;
-      transition: 0.4s ease;
-      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-              box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
-    section.our-teams .team-wrap .team-img {
-      margin-bottom: 20px; }
-      section.our-teams .team-wrap .team-img img {
-        height: 130px;
-        width: 130px;
-        border-radius: 50%; }
-    section.our-teams .team-wrap h5.section-info-secondary {
-      font-size: 13px; }
-    section.our-teams .team-wrap button {
-      margin-top: 20px; }
+    border-bottom: 4px solid #4baef8;
+}
+
+section.our-teams .team-wrap:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+section.our-teams .team-wrap .team-img {
+    margin-bottom: 20px;
+}
+
+section.our-teams .team-wrap .team-img img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+section.our-teams .team-wrap h5.section-info-secondary {
+    font-size: 13px;
+}
+
+section.our-teams .team-wrap button {
+    margin-top: 20px;
+}
 
 section.register {
-  text-align: center; }
-  section.register h2.section-title {
-    font-size: 50px; }
-  section.register .register-wrap {
+    text-align: center;
+}
+
+section.register h2.section-title {
+    font-size: 50px;
+}
+
+section.register .register-wrap {
     border: 2px solid #ffc72b;
     padding: 40px 20px;
-    min-height: 400px; }
-    section.register .register-wrap:hover {
-      border-color: #4baef8;
-      -webkit-transition: 0.4s ease;
-      transition: 0.4s ease; }
-    section.register .register-wrap h1 {
-      font-family: 'Montserrat', sans-serif;
-      color: #ffc72b;
-      font-size: 50px;
-      margin-bottom: 20px; }
-    section.register .register-wrap p.section-info span {
-      color: #00009f;
-      letter-spacing: 1px; }
-    section.register .register-wrap p.section-info a:hover {
-      color: #ffc72b;
-      -webkit-transition: 0.4s ease;
-      transition: 0.4s ease; }
+    min-height: 400px;
+}
+
+section.register .register-wrap:hover {
+    border-color: #4baef8;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+section.register .register-wrap h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffc72b;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section.register .register-wrap p.section-info span {
+    color: #00009f;
+    letter-spacing: 1px;
+}
+
+section.register .register-wrap p.section-info a:hover {
+    color: #ffc72b;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
 
 section.contact-form {
-  background-color: #fafafa; }
-  section.contact-form .get-in-touch {
+    background-color: #fafafa;
+}
+
+section.contact-form .get-in-touch {
     border: 1px solid #f4f4f4;
     background-color: #FFFFFF;
     text-align: center;
     padding: 50px 20px;
-    margin-bottom: 20px; }
-    section.contact-form .get-in-touch h2.section-title {
-      font-size: 50px; }
-    section.contact-form .get-in-touch form input {
-      height: 50px; }
-    section.contact-form .get-in-touch form textarea {
-      height: 100px; }
-    section.contact-form .get-in-touch form button {
-      margin-top: 20px; }
-  section.contact-form h5.section-info-secondary {
+    margin-bottom: 20px;
+}
+
+section.contact-form .get-in-touch h2.section-title {
+    font-size: 50px;
+}
+
+section.contact-form .get-in-touch form input {
+    height: 50px;
+}
+
+section.contact-form .get-in-touch form textarea {
+    height: 100px;
+}
+
+section.contact-form .get-in-touch form button {
+    margin-top: 20px;
+}
+
+section.contact-form h5.section-info-secondary {
     text-align: center;
     max-width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
-    text-transform: unset; }
-  section.contact-form address {
-    text-align: center; }
-    section.contact-form address ul {
-      margin-bottom: 0; }
-    section.contact-form address i {
-      font-size: 30px;
-      color: #ffc72b;
-      margin-bottom: 20px; }
-    section.contact-form address p.section-info {
-      margin-bottom: 0; }
-      section.contact-form address p.section-info a {
-        color: inherit; }
-        section.contact-form address p.section-info a:hover {
-          -webkit-transition: 0.4s ease;
-          transition: 0.4s ease;
-          color: #4baef8; }
+    text-transform: unset;
+}
+
+section.contact-form address {
+    text-align: center;
+}
+
+section.contact-form address ul {
+    margin-bottom: 0;
+}
+
+section.contact-form address i {
+    font-size: 30px;
+    color: #ffc72b;
+    margin-bottom: 20px;
+}
+
+section.contact-form address p.section-info {
+    margin-bottom: 0;
+}
+
+section.contact-form address p.section-info a {
+    color: inherit;
+}
+
+section.contact-form address p.section-info a:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    color: #4baef8;
+}
 
 section.about-page-body {
-  padding: 70px 0; }
+    padding: 70px 0;
+}
 
 section.profile h2.section-title {
-  text-align: center;
-  font-size: 60px;
-  margin-bottom: 80px; }
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
 
 section.profile .profile-img {
-  padding: 10px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  height: 500px;
-  max-width: 80%;
-  margin: 0 auto; }
-  section.profile .profile-img img {
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    height: 500px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section.profile .profile-img img {
     height: 100%;
-    max-width: 100%; }
+    max-width: 100%;
+}
 
 section.profile h3.section-title-secondary {
-  margin-bottom: 30px; }
+    margin-bottom: 30px;
+}
 
 section.profile h5.section-info-secondary {
-  text-transform: unset;
-  line-height: 1.4; }
-  section.profile h5.section-info-secondary + h5.section-info-secondary {
+    text-transform: unset;
+    line-height: 1.4;
+}
+
+section.profile h5.section-info-secondary + h5.section-info-secondary {
     margin-top: 20px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+}
 
 section.profile .progress {
-  margin-bottom: 10px;
-  height: 30px; }
+    margin-bottom: 10px;
+    height: 30px;
+}
 
 section.profile .progress-bar {
-  background-color: #ffc72b; }
+    background-color: #ffc72b;
+}
 
 section.profile p.section-info {
-  margin-bottom: 30px; }
+    margin-bottom: 30px;
+}
 
 section.profile .profile-line {
-  background-color: #ebebeb;
-  height: 1px;
-  width: 100%;
-  margin-bottom: 20px; }
+    background-color: #ebebeb;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 section.profile .modal .modal-dialog {
-  min-width: 35%; }
+    min-width: 35%;
+}
 
 section.profile .modal .modal-header h3.section-title-secondary {
-  margin-bottom: 0; }
+    margin-bottom: 0;
+}
 
 section.profile .modal .modal-body .amounts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-bottom: 20px; }
-  section.profile .modal .modal-body .amounts button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+section.profile .modal .modal-body .amounts button {
     padding: 15px 30px;
     height: 30px;
     background-color: #4baef8;
@@ -482,309 +660,492 @@ section.profile .modal .modal-body .amounts {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     cursor: pointer;
     border: 2px solid #4baef8;
-    border-radius: 3px; }
-    section.profile .modal .modal-body .amounts button p.section-info {
-      margin-bottom: 0;
-      color: #FFFFFF; }
-    section.profile .modal .modal-body .amounts button:hover {
-      background-color: #000000;
-      -webkit-transition: 0.4s ease;
-      transition: 0.4s ease;
-      border-color: #000000; }
+    border-radius: 3px;
+}
+
+section.profile .modal .modal-body .amounts button p.section-info {
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+section.profile .modal .modal-body .amounts button:hover {
+    background-color: #000000;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-color: #000000;
+}
 
 section.profile .modal .modal-body .donation-amount {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 30px; }
-  section.profile .modal .modal-body .donation-amount p.section-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+section.profile .modal .modal-body .donation-amount p.section-info {
     margin-bottom: 0;
-    margin-right: 15px; }
-  section.profile .modal .modal-body .donation-amount input {
-    width: 100px; }
+    margin-right: 15px;
+}
+
+section.profile .modal .modal-body .donation-amount input {
+    width: 100px;
+}
 
 section.profile .modal .modal-body form h3.section-title-secondary {
-  margin-bottom: 30px; }
+    margin-bottom: 30px;
+}
 
 section.profile .modal .modal-body form .cardholder-details, section.profile .modal .modal-body form .card-details {
-  background-color: #f4f4f4;
-  border-radius: 30px;
-  padding: 30px; }
-  section.profile .modal .modal-body form .cardholder-details p.section-info, section.profile .modal .modal-body form .card-details p.section-info {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+section.profile .modal .modal-body form .cardholder-details p.section-info, section.profile .modal .modal-body form .card-details p.section-info {
     margin-bottom: 0;
-    font-size: 13px; }
-  section.profile .modal .modal-body form .cardholder-details input, section.profile .modal .modal-body form .card-details input {
+    font-size: 13px;
+}
+
+section.profile .modal .modal-body form .cardholder-details input, section.profile .modal .modal-body form .card-details input {
     height: 35px;
     border-radius: 3px;
-    border: 1px solid #bebebe; }
-  section.profile .modal .modal-body form .cardholder-details select, section.profile .modal .modal-body form .card-details select {
+    border: 1px solid #bebebe;
+}
+
+section.profile .modal .modal-body form .cardholder-details select, section.profile .modal .modal-body form .card-details select {
     width: 100%;
     height: 35px;
     border-radius: 3px;
-    border: 1px solid #bebebe; }
-    section.profile .modal .modal-body form .cardholder-details select::-webkit-input-placeholder, section.profile .modal .modal-body form .card-details select::-webkit-input-placeholder {
-      font-size: 13px; }
-    section.profile .modal .modal-body form .cardholder-details select::-moz-placeholder, section.profile .modal .modal-body form .card-details select::-moz-placeholder {
-      font-size: 13px; }
-    section.profile .modal .modal-body form .cardholder-details select::-ms-input-placeholder, section.profile .modal .modal-body form .card-details select::-ms-input-placeholder {
-      font-size: 13px; }
-    section.profile .modal .modal-body form .cardholder-details select::placeholder, section.profile .modal .modal-body form .card-details select::placeholder {
-      font-size: 13px; }
+    border: 1px solid #bebebe;
+}
+
+section.profile .modal .modal-body form .cardholder-details select::-webkit-input-placeholder, section.profile .modal .modal-body form .card-details select::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+section.profile .modal .modal-body form .cardholder-details select::-moz-placeholder, section.profile .modal .modal-body form .card-details select::-moz-placeholder {
+    font-size: 13px;
+}
+
+section.profile .modal .modal-body form .cardholder-details select::-ms-input-placeholder, section.profile .modal .modal-body form .card-details select::-ms-input-placeholder {
+    font-size: 13px;
+}
+
+section.profile .modal .modal-body form .cardholder-details select::placeholder, section.profile .modal .modal-body form .card-details select::placeholder {
+    font-size: 13px;
+}
 
 section.profile .modal .modal-body form .cardholder-details + .card-details {
-  margin-top: 30px; }
+    margin-top: 30px;
+}
 
 section.profile .modal .modal-body form button {
-  margin-top: 30px; }
+    margin-top: 30px;
+}
 
 section.donations {
-  padding-top: 30px; }
-  section.donations h3.section-title-secondary {
-    margin-bottom: 40px; }
-  section.donations table {
-    width: 100%; }
-    section.donations table tr {
-      padding-left: 10px; }
-      section.donations table tr th {
-        padding: 10px 0 10px 10px;
-        background-color: #000000;
-        color: #FFFFFF; }
-      section.donations table tr td {
-        width: 30%;
-        padding: 10px 0 10px 10px; }
-    section.donations table tr:nth-child(even) {
-      background-color: #f4f4f4; }
+    padding-top: 30px;
+}
+
+section.donations h3.section-title-secondary {
+    margin-bottom: 40px;
+}
+
+section.donations table {
+    width: 100%;
+}
+
+section.donations table tr {
+    padding-left: 10px;
+}
+
+section.donations table tr th {
+    padding: 10px 0 10px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+section.donations table tr td {
+    width: 30%;
+    padding: 10px 0 10px 10px;
+}
+
+section.donations table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
 
 section.team-members {
-  text-align: center; }
-  section.team-members .team-member-profile .team-member-profile-img {
+    text-align: center;
+}
+
+section.team-members .team-member-profile .team-member-profile-img {
     padding: 5px;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    margin-bottom: 20px; }
-    section.team-members .team-member-profile .team-member-profile-img img {
-      width: 100%; }
-  section.team-members .team-member-profile p.section-info {
-    font-size: 14px; }
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+section.team-members .team-member-profile .team-member-profile-img img {
+    width: 100%;
+}
+
+section.team-members .team-member-profile p.section-info {
+    font-size: 14px;
+}
 
 section.about-team {
-  background-color: #fafafa; }
-  section.about-team h5.section-info-secondary {
+    background-color: #fafafa;
+}
+
+section.about-team h5.section-info-secondary {
     margin-top: 30px;
-    margin-bottom: 20px; }
-  section.about-team .progress {
+    margin-bottom: 20px;
+}
+
+section.about-team .progress {
     margin-bottom: 10px;
-    height: 30px; }
-  section.about-team .progress-bar {
-    background-color: #4baef8; }
-  section.about-team p.section-info {
-    margin-bottom: 30px; }
-  section.about-team .profile-line {
+    height: 30px;
+}
+
+section.about-team .progress-bar {
+    background-color: #4baef8;
+}
+
+section.about-team p.section-info {
+    margin-bottom: 30px;
+}
+
+section.about-team .profile-line {
     background-color: #ebebeb;
     height: 1px;
     width: 100%;
-    margin-bottom: 20px; }
-  section.about-team .modal .modal-dialog {
-    min-width: 35%; }
-  section.about-team .modal .modal-header h3.section-title-secondary {
-    margin-bottom: 0; }
-  section.about-team .modal .modal-body .amounts {
+    margin-bottom: 20px;
+}
+
+section.about-team .modal .modal-dialog {
+    min-width: 35%;
+}
+
+section.about-team .modal .modal-header h3.section-title-secondary {
+    margin-bottom: 0;
+}
+
+section.about-team .modal .modal-body .amounts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-bottom: 20px; }
-    section.about-team .modal .modal-body .amounts button {
-      padding: 15px 30px;
-      height: 30px;
-      background-color: #ffc72b;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      cursor: pointer;
-      border: 2px solid #ffc72b;
-      border-radius: 3px; }
-      section.about-team .modal .modal-body .amounts button p.section-info {
-        margin-bottom: 0;
-        color: #FFFFFF; }
-      section.about-team .modal .modal-body .amounts button:hover {
-        background-color: #000000;
-        -webkit-transition: 0.4s ease;
-        transition: 0.4s ease;
-        border-color: #000000; }
-  section.about-team .modal .modal-body .donation-amount {
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+section.about-team .modal .modal-body .amounts button {
+    padding: 15px 30px;
+    height: 30px;
+    background-color: #ffc72b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #ffc72b;
+    border-radius: 3px;
+}
+
+section.about-team .modal .modal-body .amounts button p.section-info {
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+section.about-team .modal .modal-body .amounts button:hover {
+    background-color: #000000;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-color: #000000;
+}
+
+section.about-team .modal .modal-body .donation-amount {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 30px; }
-    section.about-team .modal .modal-body .donation-amount p.section-info {
-      margin-bottom: 0;
-      margin-right: 15px; }
-    section.about-team .modal .modal-body .donation-amount input {
-      width: 100px; }
-  section.about-team .modal .modal-body form h3.section-title-secondary {
-    margin-bottom: 30px; }
-  section.about-team .modal .modal-body form .cardholder-details, section.about-team .modal .modal-body form .card-details {
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+section.about-team .modal .modal-body .donation-amount p.section-info {
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+section.about-team .modal .modal-body .donation-amount input {
+    width: 100px;
+}
+
+section.about-team .modal .modal-body form h3.section-title-secondary {
+    margin-bottom: 30px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details, section.about-team .modal .modal-body form .card-details {
     background-color: #f4f4f4;
     border-radius: 30px;
-    padding: 30px; }
-    section.about-team .modal .modal-body form .cardholder-details p.section-info, section.about-team .modal .modal-body form .card-details p.section-info {
-      margin-bottom: 0;
-      font-size: 13px; }
-    section.about-team .modal .modal-body form .cardholder-details input, section.about-team .modal .modal-body form .card-details input {
-      height: 35px;
-      border-radius: 3px;
-      border: 1px solid #bebebe; }
-    section.about-team .modal .modal-body form .cardholder-details select, section.about-team .modal .modal-body form .card-details select {
-      width: 100%;
-      height: 35px;
-      border-radius: 3px;
-      border: 1px solid #bebebe; }
-      section.about-team .modal .modal-body form .cardholder-details select::-webkit-input-placeholder, section.about-team .modal .modal-body form .card-details select::-webkit-input-placeholder {
-        font-size: 13px; }
-      section.about-team .modal .modal-body form .cardholder-details select::-moz-placeholder, section.about-team .modal .modal-body form .card-details select::-moz-placeholder {
-        font-size: 13px; }
-      section.about-team .modal .modal-body form .cardholder-details select::-ms-input-placeholder, section.about-team .modal .modal-body form .card-details select::-ms-input-placeholder {
-        font-size: 13px; }
-      section.about-team .modal .modal-body form .cardholder-details select::placeholder, section.about-team .modal .modal-body form .card-details select::placeholder {
-        font-size: 13px; }
-  section.about-team .modal .modal-body form .cardholder-details + .card-details {
-    margin-top: 30px; }
-  section.about-team .modal .modal-body form button {
-    margin-top: 30px; }
+    padding: 30px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details p.section-info, section.about-team .modal .modal-body form .card-details p.section-info {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details input, section.about-team .modal .modal-body form .card-details input {
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+section.about-team .modal .modal-body form .cardholder-details select, section.about-team .modal .modal-body form .card-details select {
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+section.about-team .modal .modal-body form .cardholder-details select::-webkit-input-placeholder, section.about-team .modal .modal-body form .card-details select::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details select::-moz-placeholder, section.about-team .modal .modal-body form .card-details select::-moz-placeholder {
+    font-size: 13px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details select::-ms-input-placeholder, section.about-team .modal .modal-body form .card-details select::-ms-input-placeholder {
+    font-size: 13px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details select::placeholder, section.about-team .modal .modal-body form .card-details select::placeholder {
+    font-size: 13px;
+}
+
+section.about-team .modal .modal-body form .cardholder-details + .card-details {
+    margin-top: 30px;
+}
+
+section.about-team .modal .modal-body form button {
+    margin-top: 30px;
+}
 
 @media (max-width: 575px) {
-  nav.navbar a.navbar-brand h1 {
-    font-size: 30px;
-    margin-bottom: 0; }
-  h2.section-title {
-    font-size: 45px; }
-  section.hero .hero-wrap .hero-buttons button + button {
-    margin-left: 0px;
-    margin-top: 20px; }
-  section.counts .count-wrap {
-    margin: 10px 0; }
-  section.register h2.section-title {
-    font-size: 30px; }
-  section.contact-form .get-in-touch h2.section-title {
-    margin-bottom: 15px; }
-  section.contact-form .get-in-touch {
-    padding: 30px 10px; }
-  section.contact-form address ul {
-    margin-bottom: 0; }
-  section.about-page-body {
-    padding-top: 40px; }
-  section.profile {
-    padding-top: 30px; }
-  section.profile h2.section-title {
-    font-size: 35px;
-    margin-bottom: 30px; }
-  section.profile .profile-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px; }
-  section.profile .profile-img img {
-    width: 100%; }
-  section.profile h3.section-title-secondary {
-    font-size: 18px; }
-  section.profile .modal .modal-body .amounts button {
-    margin-top: 15px; }
-  section.profile .modal .modal-body form .cardholder-details, section.profile .modal .modal-body form .card-details {
-    padding: 30px 10px; }
-  section.team-members {
-    padding-top: 30px; }
-  section.about-team h3.section-title-secondary {
-    font-size: 18px; }
-  section.about-team .modal .modal-body .amounts button {
-    margin-top: 15px; }
-  section.about-team .modal .modal-body form .cardholder-details, section.about-team .modal .modal-body form .card-details {
-    padding: 30px 10px; } }
+    nav.navbar a.navbar-brand h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    h2.section-title {
+        font-size: 45px;
+    }
+
+    section.hero .hero-wrap .hero-buttons button + button {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    section.counts .count-wrap {
+        margin: 10px 0;
+    }
+
+    section.register h2.section-title {
+        font-size: 30px;
+    }
+
+    section.contact-form .get-in-touch h2.section-title {
+        margin-bottom: 15px;
+    }
+
+    section.contact-form .get-in-touch {
+        padding: 30px 10px;
+    }
+
+    section.contact-form address ul {
+        margin-bottom: 0;
+    }
+
+    section.about-page-body {
+        padding-top: 40px;
+    }
+
+    section.profile {
+        padding-top: 30px;
+    }
+
+    section.profile h2.section-title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    section.profile .profile-img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    section.profile .profile-img img {
+        width: 100%;
+    }
+
+    section.profile h3.section-title-secondary {
+        font-size: 18px;
+    }
+
+    section.profile .modal .modal-body .amounts button {
+        margin-top: 15px;
+    }
+
+    section.profile .modal .modal-body form .cardholder-details, section.profile .modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+    section.team-members {
+        padding-top: 30px;
+    }
+
+    section.about-team h3.section-title-secondary {
+        font-size: 18px;
+    }
+
+    section.about-team .modal .modal-body .amounts button {
+        margin-top: 15px;
+    }
+
+    section.about-team .modal .modal-body form .cardholder-details, section.about-team .modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+}
 
 @media (min-width: 576px) {
-  section.counts h2.section-title {
-    font-size: 35px; }
-  h2.section-title {
-    font-size: 55px; }
-  section.register h2.section-title {
-    font-size: 40px; }
-  section.register .register-wrap {
-    max-width: 70%;
-    margin: 0 auto; }
-  section.about-page-body {
-    padding-top: 30px; }
-  section.profile {
-    padding: 30px 0; }
-  section.profile h2.section-title {
-    margin-bottom: 30px; }
-  section.profile .profile-img {
-    max-width: 60%;
-    height: auto;
-    margin-bottom: 20px; }
-  section.profile .profile-img img {
-    width: 100%; }
-  section.team-members .team-member-profile .team-member-profile-img {
-    max-width: 80%;
-    margin: 0 auto;
-    margin-bottom: 20px; } }
+    section.counts h2.section-title {
+        font-size: 35px;
+    }
+
+    h2.section-title {
+        font-size: 55px;
+    }
+
+    section.register h2.section-title {
+        font-size: 40px;
+    }
+
+    section.register .register-wrap {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    section.about-page-body {
+        padding-top: 30px;
+    }
+
+    section.profile {
+        padding: 30px 0;
+    }
+
+    section.profile h2.section-title {
+        margin-bottom: 30px;
+    }
+
+    section.profile .profile-img {
+        max-width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    section.profile .profile-img img {
+        width: 100%;
+    }
+
+    section.team-members .team-member-profile .team-member-profile-img {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
 
 @media (min-width: 768px) {
-  section.register h2.section-title {
-    font-size: 30px; }
-  section.register .register-wrap {
-    max-width: 50%; }
-  section.our-raisers {
-    padding: 30px 0; }
-  section.profile .profile-img {
-    max-width: 90%; }
-  section.team-members .team-member-profile .team-member-profile-img {
-    max-width: 70%;
-    margin: 0 auto;
-    margin-bottom: 20px; }
-  section.team-members {
-    padding-top: 30px; } }
+    section.register h2.section-title {
+        font-size: 30px;
+    }
+
+    section.register .register-wrap {
+        max-width: 50%;
+    }
+
+    section.our-raisers {
+        padding: 30px 0;
+    }
+
+    section.profile .profile-img {
+        max-width: 90%;
+    }
+
+    section.team-members .team-member-profile .team-member-profile-img {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    section.team-members {
+        padding-top: 30px;
+    }
+}
 
 @media (max-width: 991px) {
-  nav.sticky a.navbar-brand {
-    width: 180px; } }
+    nav.sticky a.navbar-brand {
+        width: 180px;
+    }
+}
 
 @media (min-width: 992px) {
-  nav.navbar.sticky .navbar-collapse ul li a.nav-link {
-    font-size: 14px; }
-  section.register .register-wrap {
-    max-width: 100%; }
-  section.register .register-wrap {
-    min-height: 430px; }
-  section.contact-form .get-in-touch {
-    padding: 40px; }
-  section.team-members .team-member-profile .team-member-profile-img {
-    max-width: 90%; } }
+    nav.navbar.sticky .navbar-collapse ul li a.nav-link {
+        font-size: 14px;
+    }
+
+    section.register .register-wrap {
+        max-width: 100%;
+    }
+
+    section.register .register-wrap {
+        min-height: 430px;
+    }
+
+    section.contact-form .get-in-touch {
+        padding: 40px;
+    }
+
+    section.team-members .team-member-profile .team-member-profile-img {
+        max-width: 90%;
+    }
+}

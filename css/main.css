@@ -1,0 +1,1247 @@
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 70px 0;
+}
+
+h2.section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #231e55;
+    font-size: 70px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+h3.section-title-secondary {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+
+p.section-info {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+    font-weight: 300;
+    line-height: 1.67;
+    letter-spacing: 0px;
+}
+
+h5.section-info-secondary {
+    color: #181818;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+/*dark blue button*/
+button.orange-button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 17px 34px;
+    text-align: center;
+    border: 0;
+    background-color: #231e55;
+    color: #FFFFFF;
+}
+
+button.orange-button:focus {
+    outline: none;
+}
+
+/*purple 2*/
+button.orange-button:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    background-color: #5e2783;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*purple 2*/
+button.blue-button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 17px 34px;
+    text-align: center;
+    border: 0;
+    background-color: #5e2783;
+    color: #FFFFFF;
+}
+
+button.blue-button:focus {
+    outline: none;
+}
+
+/*red 2*/
+button.blue-button:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    background-color: #231e55;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+button.transparent-button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 17px 34px;
+    text-align: center;
+    border: 2px solid #231e55;
+    background-color: transparent;
+    color: #231e55;
+}
+
+button.transparent-button.xs {
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+button.transparent-button:focus {
+    outline: none;
+}
+
+button.transparent-button:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    border-color: #000000;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+body.animated {
+    opacity: 1;
+}
+
+main {
+    position: relative;
+}
+
+nav {
+    z-index: 1001;
+}
+
+nav.navbar {
+    height: 90px;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav.navbar .navbar-toggler .toggle {
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 10;
+}
+
+nav.navbar .navbar-toggler .toggle .bar {
+    position: relative;
+    width: 22px;
+    height: 2px;
+    background: #231e55;
+}
+
+nav.navbar .navbar-toggler .toggle .bar:before, nav.navbar .navbar-toggler .toggle .bar:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    left: 0;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transition: top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
+    transition: top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
+    transition: transform .25s ease, top .25s ease, bottom .25s ease;
+    transition: transform .25s ease, top .25s ease, bottom .25s ease, -webkit-transform .25s ease;
+}
+
+nav.navbar .navbar-toggler .toggle .bar:before {
+    top: -8px;
+}
+
+nav.navbar .navbar-toggler .toggle .bar:after {
+    bottom: -8px;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar {
+    background: transparent;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar:before, nav.navbar .navbar-toggler .toggle.clicked .bar:after {
+    background: #000;
+}
+
+ul.navbar-nav {
+    padding: 30px 0;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0;
+    background: #231e55;
+}
+
+nav.navbar .navbar-toggler .toggle.clicked .bar:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    bottom: 0;
+    background: #231e55;
+}
+
+nav.navbar.sticky {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    z-index: 1001;
+}
+
+nav.navbar.sticky a.navbar-brand {
+    height: 30px;
+}
+
+nav.navbar.sticky .navbar-collapse ul li a.nav-link {
+    font-size: 13px;
+}
+
+nav.navbar a.navbar-brand {
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav.navbar a.navbar-brand img {
+    height: 50px;
+}
+
+nav.navbar .navbar-collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+nav.navbar .navbar-collapse ul li + li {
+    margin-left: 15px;
+}
+
+nav.navbar .navbar-collapse ul li.active a.nav-link {
+    color: #000000;
+}
+
+nav.navbar .navbar-collapse ul li a.nav-link {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    letter-spacing: 2px;
+}
+
+nav.navbar .navbar-collapse ul li a.nav-link.active {
+    color: #C0B283;
+}
+
+nav.navbar .navbar-collapse ul li a.nav-link:hover {
+    color: #981d58;
+}
+
+nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
+    background-color: white;
+}
+
+nav.navbar .navbar-collapse.collapsing ul li, nav.navbar .navbar-collapse.show ul li {
+    padding: 2px 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav.navbar .navbar-collapse.collapsing ul li a.nav-link, nav.navbar .navbar-collapse.show ul li a.nav-link {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav.navbar .navbar-collapse.collapsing ul li a.nav-link.page-link, nav.navbar .navbar-collapse.show ul li a.nav-link.page-link {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.hero-nav nav {
+    position: absolute;
+    background-color: transparent;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: #dedede;
+    -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
+    transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.box:hover {
+    -webkit-box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+section.hero {
+    height: 100vh;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 130px;
+}
+
+section.hero .hero-wrap {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section.hero .hero-wrap h1 + h1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+section.hero .hero-wrap .hero-buttons {
+    margin-top: 30px;
+}
+
+section.hero .hero-wrap .hero-buttons button + button {
+    margin-left: 20px;
+}
+
+section.hero .counts {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(#981d58), to(#5e2783));
+    background-image: linear-gradient(90deg, #981d58, #5e2783);
+}
+
+section.hero .counts h2.section-title {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+section.hero .counts h5.section-info-secondary {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+section.our-raisers {
+    text-align: center;
+    background: #FFFFFF;
+}
+
+section.our-raisers h2.section-title {
+    margin-bottom: 30px;
+}
+
+section.our-raisers .input-group {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-group-append .btn:hover {
+    border-color: #231e55;
+    transition: 0.4s ease;
+    background: #231e55;
+}
+
+section.our-raisers .input-group {
+    margin-bottom: 50px;
+}
+
+section.our-raisers .raiser-wrap {
+    background-color: #fafafa;
+    padding: 30px 20px;
+    border-radius: 3px;
+    border-bottom: 4px solid #5e2783;
+}
+
+section.our-raisers .raiser-wrap:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+section.our-raisers .raiser-wrap .raiser-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url('https://levon-avetisyan.github.io/singingintherain/img/raiser-img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto 20px;
+}
+
+section.our-raisers .raiser-wrap h5.section-info-secondary {
+    font-size: 13px;
+}
+
+section.our-raisers .raiser-wrap button {
+    margin-top: 20px;
+}
+
+section.our-raisers button.orange-button {
+    margin-top: 50px;
+}
+
+section.our-teams {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+section.our-teams .team-wrap {
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    border-radius: 3px;
+    border-bottom: 4px solid #231e55;
+}
+
+section.our-teams .team-wrap:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+section.our-teams .team-wrap .team-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url('https://levon-avetisyan.github.io/singingintherain/img/team-img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto 20px;
+}
+
+section.our-teams .team-wrap h5.section-info-secondary {
+    font-size: 13px;
+}
+
+section.our-teams .team-wrap button {
+    margin-top: 20px;
+}
+
+section.register {
+    text-align: center;
+}
+
+section.register h2.section-title {
+    font-size: 50px;
+}
+
+section.contact-form {
+    background-color: #ffffff;
+}
+
+section.contact-form .get-in-touch {
+    border: 1px solid #cecece;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+section.contact-form .get-in-touch h2.section-title {
+    font-size: 50px;
+}
+
+section.contact-form .get-in-touch form input {
+    height: 50px;
+}
+
+section.contact-form .get-in-touch form textarea {
+    height: 100px;
+}
+
+section.contact-form .get-in-touch form button {
+    margin-top: 20px;
+}
+
+section.contact-form h5.section-info-secondary {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-transform: unset;
+}
+
+section.contact-form address {
+    text-align: center;
+}
+
+section.contact-form address ul {
+    margin-bottom: 0;
+}
+
+section.contact-form address i {
+    font-size: 30px;
+    color: #5e2783;
+    margin-bottom: 20px;
+}
+
+section.contact-form address p.section-info {
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+section.contact-form address p.section-info a {
+    color: inherit;
+}
+
+section.contact-form address p.section-info a:hover {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    color: #5e2783;
+}
+
+section.about-page-body {
+    padding: 70px 0;
+}
+
+section.about-page-body .about-img {
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+section.about-page-body img {
+    width: 100%;
+}
+
+section.profile h2.section-title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+section.profile .profile-img {
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    height: 500px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section.profile .profile-img img {
+    height: 100%;
+    max-width: 100%;
+}
+
+section.profile h3.section-title-secondary {
+    margin-bottom: 30px;
+}
+
+section.profile h5.section-info-secondary {
+    text-transform: unset;
+    line-height: 1.4;
+}
+
+section.profile h5.section-info-secondary + h5.section-info-secondary {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section.profile .progress {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+section.profile .progress-bar {
+    background-color: #231e55;
+}
+
+section.profile .profile-line {
+    background-color: #ebebeb;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section.donations {
+    padding-top: 30px;
+}
+
+section.donations h3.section-title-secondary {
+    margin-bottom: 40px;
+}
+
+section.donations table {
+    width: 100%;
+}
+
+section.donations table tr {
+    padding-left: 10px;
+}
+
+section.donations table tr th {
+    padding: 10px 0 10px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+section.donations table tr td {
+    width: 30%;
+    padding: 10px 0 10px 10px;
+}
+
+section.donations table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+section.team-members {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+section.team-members .team-member-profile .team-member-profile-img {
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+section.team-members .team-member-profile .team-member-profile-img img {
+    width: 100%;
+}
+
+section.team-members .team-member-profile p.section-info {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+}
+
+section.about-team {
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+section.about-team h5.section-info-secondary {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section.about-team .progress {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+section.about-team .progress-bar {
+    background-color: #5e2783;
+}
+
+section.about-team p.section-info {
+    margin-bottom: 30px;
+}
+
+section.about-team .profile-line {
+    background-color: #ebebeb;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section.register-page-body h2.section-title {
+    text-align: center;
+}
+
+section.register-page-body form {
+    border: 1px solid #f4f4f4;
+    padding: 50px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+section.register-page-body .form-group label {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+section.register-page-body .form-group input {
+    height: 40px;
+}
+
+section.register-page-body .form-group textarea {
+    height: 120px;
+}
+
+/*Modal*/
+.modal.donation-modal .modal-dialog {
+    min-width: 40%;
+}
+
+.modal.donation-modal .modal-header h3.section-title-secondary {
+    margin-bottom: 0;
+}
+
+.modal.donation-modal .modal-body .amounts button {
+    margin: 0;
+    padding: 10px 30px;
+    background-color: #5e2783;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #5e2783;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.modal.donation-modal .modal-body .amounts button:hover {
+    background-color: #000000;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-color: #000000;
+    color: white;
+}
+
+.modal.donation-modal .modal-body .donation-amount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.modal.donation-modal .modal-body .donation-amount p.section-info {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.modal.donation-modal .modal-body .donation-amount input {
+    width: 100px;
+}
+
+.modal.donation-modal .modal-body form h3.section-title-secondary {
+    margin-bottom: 30px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details, section.about-team .modal .modal-body form .card-details {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details p.section-info, section.about-team .modal .modal-body form .card-details p.section-info {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details input, section.about-team .modal .modal-body form .card-details input {
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details select, section.about-team .modal .modal-body form .card-details select {
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details select::-webkit-input-placeholder, section.about-team .modal .modal-body form .card-details select::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details select::-moz-placeholder, section.about-team .modal .modal-body form .card-details select::-moz-placeholder {
+    font-size: 13px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details select::-ms-input-placeholder, section.about-team .modal .modal-body form .card-details select::-ms-input-placeholder {
+    font-size: 13px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details select::placeholder, section.about-team .modal .modal-body form .card-details select::placeholder {
+    font-size: 13px;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details + .card-details {
+    margin-top: 30px;
+}
+
+/*Donate Page*/
+.donation-form-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.donation-form-wrap h3.section-title-secondary {
+    margin-bottom: 0;
+}
+
+.donation-form-wrap .amounts button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #231e55;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #231e55;
+    color: #FFFFFF;
+    min-width: 100%;
+    border-radius: 3px;
+}
+
+.donation-form-wrap .amounts button:hover {
+    background-color: #000000;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-color: #000000;
+    color: white;
+}
+
+.donation-form-wrap .donation-amount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.donation-form-wrap .donation-amount p.section-info {
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.donation-form-wrap .donation-amount input {
+    width: 100px;
+}
+
+.donation-form-wrap form h3.section-title-secondary {
+    margin-bottom: 30px;
+}
+
+.donation-form-wrap form .cardholder-details,
+.modal.donation-modal .modal-body form .cardholder-details {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.donation-form-wrap form .card-details,
+.modal.donation-modal .modal-body form .card-details {
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.donation-form-wrap form .cardholder-details p.section-info, .modal.donation-modal .modal-body form .card-details p.section-info {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.donation-form-wrap form .cardholder-details input, .modal.donation-modal .modal-body form .card-details input {
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+.donation-form-wrap form .cardholder-details select,
+.modal.donation-modal .modal-body form .card-details select {
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+
+.donation-form-wrap form .cardholder-details select::-webkit-input-placeholder, .modal.donation-modal .modal-body form .card-details select::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+.donation-form-wrap form .cardholder-details select::-moz-placeholder, .modal.donation-modal .modal-body form .card-details select::-moz-placeholder {
+    font-size: 13px;
+}
+
+.donation-form-wrap form .cardholder-details select::-ms-input-placeholder, .modal.donation-modal .modal-body form .card-details select::-ms-input-placeholder {
+    font-size: 13px;
+}
+
+.donation-form-wrap form .cardholder-details select::placeholder, .modal.donation-modal .modal-body form .card-details select::placeholder {
+    font-size: 13px;
+}
+
+.donation-form-wrap form .cardholder-details + .card-details {
+    margin-top: 30px;
+}
+
+section.donate-page-body .donation-form-wrap form .form-group {
+    width: 100%;
+}
+
+.donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .cardholder-details {
+    text-align: left;
+}
+
+.modal.donation-modal .modal-body form .cardholder-details + .card-details {
+    text-align: left;
+}
+
+section.team-members .form-group {
+    width: 100%;
+}
+
+@media (max-width: 575px) {
+    section.donate-page-body {
+        padding-top: 30px;
+    }
+
+    .donation-form-wrap form .card-details, .modal.donation-modal .modal-body form .card-details {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .cardholder-details {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .modal.donation-modal .modal-body .amounts button,
+    .donation-form-wrap .amounts button {
+        width: 100%;
+        margin: 6px;
+    }
+
+    nav.navbar a.navbar-brand h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    h2.section-title {
+        font-size: 45px;
+    }
+
+    section.hero .hero-wrap {
+        height: calc(100vh - 140px);
+        padding: 70px 0;
+    }
+
+    section.hero .hero-wrap h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    section.hero .hero-wrap h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    section.hero .hero-wrap .hero-buttons button + button {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    section.our-raisers .input-group{
+        width: 90%;
+    }
+    section.hero {
+        height: unset;
+        padding-top: 140px;
+        padding-bottom: 0;
+    }
+
+    section.hero .counts .count-wrap {
+        margin: 10px 0;
+    }
+
+    section.hero .counts h2.section-title {
+        font-size: 35px;
+    }
+
+    section.hero .hero-wrap {
+        justify-content: space-between;
+    }
+
+    section.contact-form .get-in-touch h2.section-title {
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+
+    section.contact-form .get-in-touch {
+        padding: 30px 10px;
+    }
+
+    section.contact-form address ul {
+        margin-bottom: 0;
+    }
+
+    section.about-page-body {
+        padding-top: 40px;
+    }
+
+    section.profile {
+        padding-top: 30px;
+    }
+
+    section.profile h2.section-title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    section.profile .profile-img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    section.profile .profile-img img {
+        width: 100%;
+    }
+
+    section.profile h3.section-title-secondary {
+        font-size: 18px;
+    }
+
+    section.profile .form-group {
+        width: 100%;
+    }
+
+    .modal .modal-body form .cardholder-details,
+    .modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+    .modal.donation-modal .modal-body form .cardholder-details,
+    .modal.donation-modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+    section.team-members {
+        padding-top: 30px;
+
+    }
+
+    section.about-team h3.section-title-secondary {
+        font-size: 18px;
+    }
+
+    section.register-page-body form {
+        padding: 30px 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    section.donate-page-body {
+        padding-top: 30px;
+    }
+
+    section.hero .counts h2.section-title {
+        font-size: 35px;
+    }
+
+    h2.section-title {
+        font-size: 55px;
+    }
+
+   section.hero .counts {
+        height: 130px;
+        position: absolute;
+    }
+
+    section.register .register-wrap {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    section.about-page-body {
+        padding-top: 30px;
+    }
+
+    section.profile {
+        padding: 30px 0;
+    }
+
+    section.profile h2.section-title {
+        margin-bottom: 30px;
+    }
+
+    section.profile .profile-img {
+        max-width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    section.profile .profile-img img {
+        width: 100%;
+    }
+
+    section.team-members .team-member-profile .team-member-profile-img {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .modal .modal-body form .cardholder-details,
+    .modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+
+
+    section.our-raisers {
+        padding: 30px 0;
+    }
+
+    section.profile .profile-img {
+        max-width: 90%;
+    }
+
+    section.team-members .team-member-profile .team-member-profile-img {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    section.team-members {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    nav.sticky a.navbar-brand {
+        width: 180px;
+    }
+}
+
+@media (min-width: 992px) {
+    nav.navbar.sticky .navbar-collapse ul li a.nav-link {
+        font-size: 14px;
+    }
+
+    section.contact-form .get-in-touch {
+        padding: 40px;
+    }
+
+    section.team-members .team-member-profile .team-member-profile-img {
+        max-width: 90%;
+    }
+}
