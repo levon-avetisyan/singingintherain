@@ -1040,6 +1040,7 @@ section.team-members .form-group {
     section.hero .hero-wrap {
         height: calc(100vh - 140px);
         padding: 70px 0;
+        justify-content: center;
     }
 
     section.hero .hero-wrap h1 {
