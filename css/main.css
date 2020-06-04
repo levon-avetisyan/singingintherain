@@ -384,13 +384,24 @@ section.hero {
     height: 100vh;
     position: relative;
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     background-image: url('https://levon-avetisyan.github.io/singingintherain/img/donate.jpg');
     background-size: cover;
     background-position: left top;
 }
 
+section.hero:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255, 0.7);
+}
+
 section.hero .hero-wrap {
+    position: relative;
     padding-top: 60px;
     height: 100%;
     display: -webkit-box;
@@ -436,7 +447,7 @@ section.hero .hero-wrap .hero-buttons {
     margin-top: 30px;
 }
 
-section.hero .hero-wrap .hero-buttons button {
+button {
     font-family: GreycliffCF-Bold;
 }
 
@@ -449,7 +460,7 @@ section.hero .counts {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
     text-align: center;
     background-image: -webkit-gradient(linear, left top, right top, from(#981d58), to(#5e2783));
