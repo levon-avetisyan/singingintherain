@@ -1,3 +1,27 @@
+@font-face {
+    font-family: GreycliffCF-Bold;
+    src: url("./fonts/GreycliffCF-Bold.eot"),
+    url("./fonts/GreycliffCF-Bold.woff") format("woff"),
+    url("./fonts/GreycliffCF-Bold.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: GreycliffCF-Regular;
+    src: url("./fonts/GreycliffCF-Regular.eot"),
+    url("./fonts/GreycliffCF-Regular.woff") format("woff"),
+    url("./fonts/GreycliffCF-Regular.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("./fonts/MyriadPro-Regular.eot"),
+    url("./fonts/MyriadPro-Regular.woff") format("woff"),
+    url("./fonts/MyriadPro-Regular.ttf") format("truetype")
+}
+
+body * {
+    font-family: MyriadPro-Regular;
+}
 
 a:hover {
     text-decoration: none;
@@ -8,7 +32,7 @@ section {
 }
 
 h2.section-title {
-    font-family: 'Montserrat', sans-serif;
+
     color: #231e55;
     font-size: 70px;
     font-weight: 200;
@@ -17,14 +41,12 @@ h2.section-title {
 
 h3.section-title-secondary {
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #333333;
 }
 
 p.section-info {
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
     color: #888888;
     font-weight: 300;
     line-height: 1.67;
@@ -35,13 +57,12 @@ h5.section-info-secondary {
     color: #181818;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    margin-bottom: 0;
 }
 
 /*dark blue button*/
 button.orange-button {
-    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 30px;
@@ -70,7 +91,6 @@ button.orange-button:hover {
 
 /*purple 2*/
 button.blue-button {
-    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 30px;
@@ -98,7 +118,7 @@ button.blue-button:hover {
 }
 
 button.transparent-button {
-    font-family: 'Montserrat', sans-serif;
+
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 30px;
@@ -138,7 +158,7 @@ body {
     position: relative;
     min-height: 100%;
     opacity: 0;
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 300;
     -webkit-transition: all 1s linear;
     transition: all 1s linear;
@@ -220,10 +240,6 @@ nav.navbar .navbar-toggler .toggle.clicked .bar:before, nav.navbar .navbar-toggl
     background: #000;
 }
 
-ul.navbar-nav {
-    padding: 30px 0;
-}
-
 nav.navbar .navbar-toggler .toggle.clicked .bar:before {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -274,6 +290,14 @@ nav.navbar a.navbar-brand {
 
 nav.navbar a.navbar-brand img {
     height: 50px;
+}
+
+nav.navbar .logo-children{
+   margin: 0 15px 0 40px;
+}
+
+nav.navbar .logo-children a img {
+    max-width: 80px;
 }
 
 nav.navbar .navbar-collapse {
@@ -359,11 +383,15 @@ nav.navbar .navbar-collapse.collapsing ul li a.nav-link.page-link, nav.navbar .n
 section.hero {
     height: 100vh;
     position: relative;
-    padding-top: 160px;
-    padding-bottom: 130px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    background-image: url('https://levon-avetisyan.github.io/singingintherain/img/donate.jpg');
+    background-size: cover;
+    background-position: left top;
 }
 
 section.hero .hero-wrap {
+    padding-top: 60px;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -374,19 +402,42 @@ section.hero .hero-wrap {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: start;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
 }
 
-section.hero .hero-wrap h1 + h1 {
+section.hero .hero-wrap .hero-text {
+    max-width: 600px;
+}
+
+section.hero .hero-wrap .hero-text h1 {
+    color: #5e2783;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    line-height: 1;
+}
+
+section.hero .hero-wrap .hero-text h2 {
+    color: #981d58;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
     margin-top: 15px;
     margin-bottom: 20px;
 }
 
+section.hero .hero-wrap .hero-text p {
+    font-size: 18px;
+}
+
 section.hero .hero-wrap .hero-buttons {
     margin-top: 30px;
+}
+
+section.hero .hero-wrap .hero-buttons button {
+    font-family: GreycliffCF-Bold;
 }
 
 section.hero .hero-wrap .hero-buttons button + button {
@@ -394,16 +445,21 @@ section.hero .hero-wrap .hero-buttons button + button {
 }
 
 section.hero .counts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
     width: 100%;
     text-align: center;
-    padding: 20px 0;
     background-image: -webkit-gradient(linear, left top, right top, from(#981d58), to(#5e2783));
     background-image: linear-gradient(90deg, #981d58, #5e2783);
 }
 
 section.hero .counts h2.section-title {
+    font-family: GreycliffCF-Bold;
     font-size: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: #FFFFFF;
 }
 
@@ -697,7 +753,7 @@ section.team-members .team-member-profile .team-member-profile-img img {
 
 section.team-members .team-member-profile p.section-info {
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 300;
     line-height: 1.5;
     color: #212529;
@@ -746,7 +802,6 @@ section.register-page-body form {
 
 section.register-page-body .form-group label {
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
     color: #888888;
     font-weight: 300;
     letter-spacing: 0px;
@@ -811,7 +866,7 @@ section.register-page-body .form-group textarea {
 
 .modal.donation-modal .modal-body .donation-amount p.section-info {
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 300;
     line-height: 1.5;
     color: #212529;
@@ -924,7 +979,7 @@ section.register-page-body .form-group textarea {
     margin-bottom: 0;
     margin-right: 15px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 300;
     line-height: 1.5;
     color: #212529;
@@ -1028,11 +1083,6 @@ section.team-members .form-group {
         margin: 6px;
     }
 
-    nav.navbar a.navbar-brand h1 {
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-
     h2.section-title {
         font-size: 45px;
     }
@@ -1057,9 +1107,11 @@ section.team-members .form-group {
         margin-left: 0px;
         margin-top: 20px;
     }
-    section.our-raisers .input-group{
+
+    section.our-raisers .input-group {
         width: 90%;
     }
+
     section.hero {
         height: unset;
         padding-top: 140px;
@@ -1157,11 +1209,6 @@ section.team-members .form-group {
 
     h2.section-title {
         font-size: 55px;
-    }
-
-   section.hero .counts {
-        height: 130px;
-        position: absolute;
     }
 
     section.register .register-wrap {
