@@ -84,7 +84,7 @@ h3.section-title-secondary {
     color: #333333;
 }
 
-h4.article-title{
+h4.article-title {
     font-family: GreycliffCF-Regular;
 }
 
@@ -221,14 +221,13 @@ nav {
 }
 
 nav.navbar {
-    height: 90px;
+    height: 80px;
     left: 0;
     right: 0;
     background-color: #FFFFFF;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
 nav.navbar .navbar-toggler .toggle {
@@ -310,8 +309,8 @@ nav.navbar.sticky {
     z-index: 1001;
 }
 
-nav.navbar.sticky a.navbar-brand {
-    height: 30px;
+nav.navbar.sticky .navbar-collapse{
+
 }
 
 nav.navbar.sticky .navbar-collapse ul li a.nav-link {
@@ -333,16 +332,30 @@ nav.navbar a.navbar-brand {
     align-items: center;
 }
 
-nav.navbar a.navbar-brand img {
-    height: 50px;
+nav.navbar .navbar-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background-color: white;
 }
 
-nav.navbar .logo-children {
-    margin: 0 15px 0 40px;
+nav.navbar .navbar-content .logos .sing-logo {
+
 }
 
-nav.navbar .logo-children a img {
-    max-width: 80px;
+nav.navbar .navbar-content .logos .sing-logo  img{
+    width: 130px;
+}
+
+nav.navbar .navbar-content .logos .children-logo {
+    margin-left: 30px;
+}
+
+nav.navbar .navbar-content .logos .children-logo a img {
+    width: 60px;
 }
 
 nav.navbar .navbar-collapse {
@@ -381,6 +394,11 @@ nav.navbar .navbar-collapse ul li a.nav-link:hover {
 
 nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
     background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0;
+    left: 0;
 }
 
 nav.navbar .navbar-collapse.collapsing ul li, nav.navbar .navbar-collapse.show ul li {
@@ -481,7 +499,7 @@ section.hero .counts {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    min-height: 80px;
     width: 100%;
     text-align: center;
     background-image: -webkit-gradient(linear, left top, right top, from(#981d58), to(#5e2783));
@@ -1089,44 +1107,54 @@ section.donate-page-body .donation-form-wrap form .form-group {
 }
 
 @media (max-width: 575px) {
-    section.donate-page-body {
-        padding-top: 30px;
+    nav.navbar {
+        height: 60px;
     }
 
-    .donation-form-wrap form .card-details, .modal.donation-modal .modal-body form .card-details {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    .donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .cardholder-details {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    .modal.donation-modal .modal-body .amounts button,
-    .donation-form-wrap .amounts button {
-        width: 100%;
-        margin: 6px;
+    nav.navbar .navbar-collapse.collapsing, nav.navbar .navbar-collapse.show {
+        top: 60px;
+        padding-bottom: 20px;
     }
 
     h2.section-title {
         font-size: 45px;
     }
 
+    section.hero {
+        height: auto;
+        padding-top: 90px;
+        padding-bottom: 0;
+    }
+
     section.hero .hero-wrap {
-        height: calc(100vh - 140px);
-        padding: 70px 0;
+        /*height: calc(100vh - 140px);*/
         justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+        overflow: hidden;
+        height: 100%;
     }
 
-    section.hero .hero-wrap h1 {
+    section.hero .hero-wrap .hero-text {
+        padding: 0 15px;
+    }
+
+    section.hero .hero-wrap .hero-text h1 {
+        font-size: 32px;
+    }
+
+    section.hero .hero-wrap .hero-text h2 {
         font-size: 28px;
-        text-align: center;
     }
 
-    section.hero .hero-wrap h3 {
-        font-size: 22px;
-        text-align: center;
+    section.hero .hero-wrap .hero-text p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    section.hero .hero-wrap .hero-buttons {
+        margin-top: 20px;
     }
 
     section.hero .hero-wrap .hero-buttons button + button {
@@ -1134,14 +1162,12 @@ section.donate-page-body .donation-form-wrap form .form-group {
         margin-top: 20px;
     }
 
-    section.our-raisers .input-group {
-        width: 90%;
-    }
-
-    section.hero {
-        height: unset;
-        padding-top: 140px;
-        padding-bottom: 0;
+    section.hero .counts {
+        position: relative;
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
     }
 
     section.hero .counts .count-wrap {
@@ -1150,10 +1176,6 @@ section.donate-page-body .donation-form-wrap form .form-group {
 
     section.hero .counts h2.section-title {
         font-size: 35px;
-    }
-
-    section.hero .hero-wrap {
-        justify-content: space-between;
     }
 
     section.contact-form .get-in-touch h2.section-title {
@@ -1200,14 +1222,12 @@ section.donate-page-body .donation-form-wrap form .form-group {
         width: 100%;
     }
 
-    .modal .modal-body form .cardholder-details,
-    .modal .modal-body form .card-details {
-        padding: 30px 10px;
+    section.our-raisers .input-group {
+        width: 90%;
     }
 
-    .modal.donation-modal .modal-body form .cardholder-details,
-    .modal.donation-modal .modal-body form .card-details {
-        padding: 30px 10px;
+    section.donate-page-body {
+        padding-top: 30px;
     }
 
     section.team-members {
@@ -1221,6 +1241,32 @@ section.donate-page-body .donation-form-wrap form .form-group {
 
     section.register-page-body form {
         padding: 30px 15px;
+    }
+
+    .modal .modal-body form .cardholder-details,
+    .modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+    .modal.donation-modal .modal-body form .cardholder-details,
+    .modal.donation-modal .modal-body form .card-details {
+        padding: 30px 10px;
+    }
+
+    .donation-form-wrap form .card-details, .modal.donation-modal .modal-body form .card-details {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .donation-form-wrap form .cardholder-details, .modal.donation-modal .modal-body form .cardholder-details {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .modal.donation-modal .modal-body .amounts button,
+    .donation-form-wrap .amounts button {
+        width: 100%;
+        margin: 6px;
     }
 }
 
@@ -1274,13 +1320,9 @@ section.donate-page-body .donation-form-wrap form .form-group {
     .modal .modal-body form .card-details {
         padding: 30px 10px;
     }
-
-
 }
 
 @media (min-width: 768px) {
-
-
     section.our-raisers {
         padding: 30px 0;
     }
@@ -1300,17 +1342,7 @@ section.donate-page-body .donation-form-wrap form .form-group {
     }
 }
 
-@media (max-width: 991px) {
-    nav.sticky a.navbar-brand {
-        width: 180px;
-    }
-}
-
 @media (min-width: 992px) {
-    nav.navbar.sticky .navbar-collapse ul li a.nav-link {
-        font-size: 14px;
-    }
-
     section.contact-form .get-in-touch {
         padding: 40px;
     }

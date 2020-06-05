@@ -73,14 +73,48 @@
 </nav>
 <section class="profile">
     <div class="container">
-        <h2 class="section-title">
-            Name Surname
-        </h2>
         <div class="row">
             <div class="col-12 col-md-6">
-                <div class="profile-img">
-                    <img src="./img/raiser-img-1.jpg" alt="profile picture">
-                </div>
+                <section class="donations pt-0">
+                    <div class="container">
+                        <h3 class="section-title-secondary">
+                            Donations
+                        </h3>
+                        <table>
+                            <tr>
+                                <th colspan="3">
+                                    5 donors
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Shlome zorger</td>
+                                <td>140$</td>
+                                <td>Keep it up</td>
+                            </tr>
+                            <tr>
+                                <td>Shlome zorger</td>
+                                <td>140$</td>
+                                <td>Keep it up</td>
+                            </tr>
+                            <tr>
+                                <td>Shlome zorger</td>
+                                <td>140$</td>
+                                <td>Keep it up</td>
+                            </tr>
+                            <tr>
+                                <td>Shlome zorger</td>
+                                <td>140$</td>
+                                <td>Keep it up</td>
+                            </tr>
+                            <tr>
+                                <td>Shlome zorger</td>
+                                <td>140$</td>
+                                <td>Keep it up</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </section>
             </div>
             <div class="col-12 col-md-6">
                 <h3 class="section-title-secondary">
@@ -109,241 +143,201 @@
                         data-target="#singerSponsorModal">
                     sponsor
                 </button>
-                <div class="modal fade donation-modal" id="singerSponsorModal" tabindex="-1" role="dialog"
-                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h3 class="section-title-secondary modal-title" id="exampleModalLabel">Choose the
-                                    amount</h3>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <form action="">
-                                    <div class="amounts mb-4">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                                                <button>
-                                                    $150
-                                                </button>
-                                            </div>
-                                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                                                <button>
-                                                    $300
-                                                </button>
-                                            </div>
-                                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                                                <button>
-                                                    $600
-                                                </button>
-                                            </div>
-                                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
-                                                <button>
-                                                    $900
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="donation-amount">
-                                        <p class="section-info mb-0 mr-3">
-                                            Donation Amount
-                                        </p>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="cardholder-details">
-                                        <h3 class="section-title-secondary">
-                                            Cardholder's details
-                                        </h3>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <label for="nameOnCard">Name on card
-                                                    </label>
-                                                    <input class="form-control" type="text" name="card name"
-                                                           id="nameOnCard">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <label for="email">Email</label>
-                                                    <input class="form-control" type="text" name="email" id="email">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <label for="streetAddress">Street
-                                                        Address</label>
-                                                    <input class="form-control" type="text" name="street address"
-                                                           id="streetAddress">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="row">
-                                                    <div class="col-12 col-sm-5">
-                                                        <div class="form-group">
-                                                            <label for="city">City</label>
-                                                            <input class="form-control" type="text" name="city"
-                                                                   id="city">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-sm-3">
-                                                        <div class="form-group">
-                                                            <label for="state">State</label>
-                                                            <select name="state" id="state">
-                                                                <option value="other">Please
-                                                                    select</option>
-                                                                <option value="other">other
-                                                                </option>
-                                                                <option value="alabama">
-                                                                    Alabama</option>
-                                                                <option value="alaska">
-                                                                    Alaska</option>
-                                                                <option value="california">
-                                                                    California</option>
-                                                                <option value="delaware">
-                                                                    Delaware</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-sm-4">
-                                                        <div class="form-group">
-                                                            <label for="zipCode">Zip Code
-                                                            </label>
-                                                            <input class="form-control" type="text" name="zip code"
-                                                                   id="zipCode">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-details mb-3">
-                                        <h3 class="section-title-secondary">
-                                            Card details
-                                        </h3>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <label for="cardNumber">Card Number</label>
-                                                    <input class="form-control" type="text" name="card number"
-                                                           id="cardNumber">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="row">
-                                                    <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
-                                                        <div class="form-group d-flex flex-column justify-content-end">
-                                                            <label for="expirationMonth">Expiration Month</label>
-                                                            <select name="expiration month" id="expirationMonth" class="form-control">
-                                                                <option value="01">01</option>
-                                                                <option value="02">02</option>
-                                                                <option value="03">03</option>
-                                                                <option value="04">04</option>
-                                                                <option value="05">05</option>
-                                                                <option value="06">06</option>
-                                                                <option value="07">07</option>
-                                                                <option value="08">08</option>
-                                                                <option value="09">09</option>
-                                                                <option value="10">10</option>
-                                                                <option value="11">11</option>
-                                                                <option value="12">12</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
-                                                        <div class="form-group d-flex flex-column justify-content-end">
-                                                            <label for="expirationYear">Expiration Year</label>
-                                                            <select name="expiration year" id="expirationYear" class="form-control">
-                                                                <option value="2020">2020</option>
-                                                                <option value="2021">2021</option>
-                                                                <option value="2022">2022</option>
-                                                                <option value="2023">2023</option>
-                                                                <option value="2024">2024</option>
-                                                                <option value="2025">2025</option>
-                                                                <option value="2026">2026</option>
-                                                                <option value="2027">2027</option>
-                                                                <option value="2028">2028</option>
-                                                                <option value="2029">2029</option>
-                                                                <option value="2030">2030</option>
-                                                                <option value="2031">2031</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
-                                                        <div class="form-group d-flex flex-column justify-content-end">
-                                                            <label for="cvv">CVV</label>
-                                                            <input class="form-control" type="text" name="cvv" id="cvv">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <label for="comment">Comment</label>
-                                                    <textarea class="form-control" name="comment" id="comment"
-                                                              style="resize: none"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-button text-center">
-                                        <button class="contact-us-button blue-button" type="submit">
-                                            process
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="donations">
-    <div class="container">
-        <h3 class="section-title-secondary">
-            Donations
-        </h3>
-        <table>
-            <tr>
-                <th colspan="3">
-                    5 donors
-                </th>
-            </tr>
-            <tr>
-                <td>Shlome zorger</td>
-                <td>140$</td>
-                <td>Keep it up</td>
-            </tr>
-            <tr>
-                <td>Shlome zorger</td>
-                <td>140$</td>
-                <td>Keep it up</td>
-            </tr>
-            <tr>
-                <td>Shlome zorger</td>
-                <td>140$</td>
-                <td>Keep it up</td>
-            </tr>
-            <tr>
-                <td>Shlome zorger</td>
-                <td>140$</td>
-                <td>Keep it up</td>
-            </tr>
-            <tr>
-                <td>Shlome zorger</td>
-                <td>140$</td>
-                <td>Keep it up</td>
-            </tr>
-
-        </table>
     </div>
 </section>
 <footer>
 
 </footer>
+<div class="modal fade donation-modal" id="singerSponsorModal" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="section-title-secondary modal-title" id="exampleModalLabel">Choose the
+                    amount</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="amounts mb-4">
+                        <div class="row">
+                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                                <button>
+                                    $150
+                                </button>
+                            </div>
+                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                                <button>
+                                    $300
+                                </button>
+                            </div>
+                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                                <button>
+                                    $600
+                                </button>
+                            </div>
+                            <div class="col-6 col-sm-3 d-flex justify-content-center align-items-center">
+                                <button>
+                                    $900
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="donation-amount">
+                        <p class="section-info mb-0 mr-3">
+                            Donation Amount
+                        </p>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="cardholder-details">
+                        <h3 class="section-title-secondary">
+                            Cardholder's details
+                        </h3>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="nameOnCard">Name on card
+                                    </label>
+                                    <input class="form-control" type="text" name="card name"
+                                           id="nameOnCard">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" type="text" name="email" id="email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="streetAddress">Street
+                                        Address</label>
+                                    <input class="form-control" type="text" name="street address"
+                                           id="streetAddress">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5">
+                                        <div class="form-group">
+                                            <label for="city">City</label>
+                                            <input class="form-control" type="text" name="city"
+                                                   id="city">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-3">
+                                        <div class="form-group">
+                                            <label for="state">State</label>
+                                            <select name="state" id="state">
+                                                <option value="other">Please
+                                                    select</option>
+                                                <option value="other">other
+                                                </option>
+                                                <option value="alabama">
+                                                    Alabama</option>
+                                                <option value="alaska">
+                                                    Alaska</option>
+                                                <option value="california">
+                                                    California</option>
+                                                <option value="delaware">
+                                                    Delaware</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4">
+                                        <div class="form-group">
+                                            <label for="zipCode">Zip Code
+                                            </label>
+                                            <input class="form-control" type="text" name="zip code"
+                                                   id="zipCode">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details mb-3">
+                        <h3 class="section-title-secondary">
+                            Card details
+                        </h3>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input class="form-control" type="text" name="card number"
+                                           id="cardNumber">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
+                                        <div class="form-group d-flex flex-column justify-content-end">
+                                            <label for="expirationMonth">Expiration Month</label>
+                                            <select name="expiration month" id="expirationMonth" class="form-control">
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
+                                        <div class="form-group d-flex flex-column justify-content-end">
+                                            <label for="expirationYear">Expiration Year</label>
+                                            <select name="expiration year" id="expirationYear" class="form-control">
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2027">2027</option>
+                                                <option value="2028">2028</option>
+                                                <option value="2029">2029</option>
+                                                <option value="2030">2030</option>
+                                                <option value="2031">2031</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 d-flex justify-content-end justify-content-sm-start">
+                                        <div class="form-group d-flex flex-column justify-content-end">
+                                            <label for="cvv">CVV</label>
+                                            <input class="form-control" type="text" name="cvv" id="cvv">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="comment">Comment</label>
+                                    <textarea class="form-control" name="comment" id="comment"
+                                              style="resize: none"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-button text-center">
+                        <button class="contact-us-button blue-button" type="submit">
+                            process
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
