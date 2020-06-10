@@ -309,7 +309,7 @@ nav.navbar.sticky {
     z-index: 1001;
 }
 
-nav.navbar.sticky .navbar-collapse{
+nav.navbar.sticky .navbar-collapse {
 
 }
 
@@ -346,7 +346,7 @@ nav.navbar .navbar-content .logos .sing-logo {
 
 }
 
-nav.navbar .navbar-content .logos .sing-logo  img{
+nav.navbar .navbar-content .logos .sing-logo img {
     width: 130px;
 }
 
@@ -460,6 +460,43 @@ section.hero .hero-wrap {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+section.hero .hero-wrap .video-text {
+    display: flex;
+    align-items: start;
+}
+
+section.hero .hero-wrap .video-text .video {
+    margin-right: 30px;
+    background-image: url("https://levon-avetisyan.github.io/singingintherain/img/donate-video.jpg");
+    height: 400px;
+    width: 520px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero .hero-wrap .video-text .video h1{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: #5e2783;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    line-height: 1;
+}
+
+
+section.hero .hero-wrap .video-text .video iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 section.hero .hero-wrap .hero-text {
